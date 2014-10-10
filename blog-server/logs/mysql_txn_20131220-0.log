@@ -1,0 +1,372 @@
+txn[1003], 14:04:21.823, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1003], 14:04:21.824, Binding Insert [product]  set[name=若印秋冬新款三件套 大码女韩版抓绒加绒休闲套装 加厚保暖卫衣, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DiGXOU..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/1761..., price=329.00, view_count=0, ] 
+txn[1003], 14:04:21.827, Inserted [Product] [1] 
+txn[1004], 14:04:21.856, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1004], 14:04:21.856, Binding Insert [product]  set[name=卫衣三件套 加厚加绒连帽卫衣女装秋冬加厚套头休闲套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3D4SgO5..., image_url=http://img03.taobaocdn.com/bao/uploaded/i3/1125..., price=168.01, view_count=0, ] 
+txn[1004], 14:04:21.857, Inserted [Product] [2] 
+txn[1005], 14:04:21.875, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1005], 14:04:21.875, Binding Insert [product]  set[name=欧洲站2012秋冬新款羽绒服三件套女修身棉衣加绒加厚连帽卫衣套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DsWmOL..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/1988..., price=389.02, view_count=0, ] 
+txn[1005], 14:04:21.875, Inserted [Product] [3] 
+txn[1006], 14:04:21.897, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1006], 14:04:21.897, Binding Insert [product]  set[name=2013春秋冬装加绒大码休闲运动服套装女款韩版加厚卫衣三件套宽松, url=http://s.click.taobao.com/t?e=m%3D2%26s%3Dvs9eG..., image_url=http://img01.taobaocdn.com/bao/uploaded/i1/1044..., price=323.00, view_count=0, ] 
+txn[1006], 14:04:21.898, Inserted [Product] [4] 
+txn[1007], 14:04:21.920, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1007], 14:04:21.920, Binding Insert [product]  set[name=秋冬女装韩版外套女士胖MM大码加厚加绒大嘴猴卫衣三件套套装女款, url=http://s.click.taobao.com/t?e=m%3D2%26s%3Dw%2Fz..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/1580..., price=138.00, view_count=0, ] 
+txn[1007], 14:04:21.920, Inserted [Product] [5] 
+txn[1008], 14:04:21.941, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1008], 14:04:21.941, Binding Insert [product]  set[name=2013韩版女士秋冬加绒加厚连帽卫衣女装裙女字母卫衣三件套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DXIicX..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/T1gn..., price=159.00, view_count=0, ] 
+txn[1008], 14:04:21.942, Inserted [Product] [6] 
+txn[1009], 14:04:21.964, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1009], 14:04:21.964, Binding Insert [product]  set[name=包邮2013冬款连帽加厚加绒三件套卫衣女外套松紧腰围长裤运动套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DgeH%2..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/1924..., price=299.00, view_count=0, ] 
+txn[1009], 14:04:21.964, Inserted [Product] [7] 
+txn[1010], 14:04:21.986, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1010], 14:04:21.986, Binding Insert [product]  set[name=孕妇装 秋冬孕妇三件套装 孕妇加绒加厚卫衣马甲 时尚韩版孕冬装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DcwYon..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/1773..., price=158.00, view_count=0, ] 
+txn[1010], 14:04:21.986, Inserted [Product] [8] 
+txn[1011], 14:04:22.008, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1011], 14:04:22.008, Binding Insert [product]  set[name=儿童韩版卫衣三件套加绒加厚品牌童装女童秋冬装2013新款运动套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DbAaFC..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/1126..., price=158.00, view_count=0, ] 
+txn[1011], 14:04:22.009, Inserted [Product] [9] 
+txn[1012], 14:04:22.030, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1012], 14:04:22.030, Binding Insert [product]  set[name=冬季女装卫衣三件套加厚加绒连帽女外套 可爱学生休闲运动套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3Df85YA..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/1948..., price=145.00, view_count=0, ] 
+txn[1012], 14:04:22.031, Inserted [Product] [10] 
+txn[1013], 14:04:22.065, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1013], 14:04:22.065, Binding Insert [product]  set[name=童装冬装 女童加厚加绒卫衣三件套 北级绒棉衣 韩版时尚公主套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DfPnpJ..., image_url=http://img03.taobaocdn.com/bao/uploaded/i3/1772..., price=128.00, view_count=0, ] 
+txn[1013], 14:04:22.067, Inserted [Product] [11] 
+txn[1014], 14:04:22.086, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1014], 14:04:22.086, Binding Insert [product]  set[name=冬装新款卫衣三件套装女装韩版潮女士运动服套装加绒加厚休闲套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DPH7Zu..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/1614..., price=385.20, view_count=0, ] 
+txn[1014], 14:04:22.088, Inserted [Product] [12] 
+txn[1015], 14:04:22.108, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1015], 14:04:22.109, Binding Insert [product]  set[name=2013最新款女装卫衣三件套秋冬韩版加厚加绒连帽学生运动休闲包邮, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DZN6t5..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/1076..., price=169.00, view_count=0, ] 
+txn[1015], 14:04:22.110, Inserted [Product] [13] 
+txn[1016], 14:04:22.131, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1016], 14:04:22.131, Binding Insert [product]  set[name=新款上市女装秋冬季学生卫衣三件套外套韩版大码卫衣加厚加绒套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DAVG%2..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/1076..., price=188.00, view_count=0, ] 
+txn[1016], 14:04:22.132, Inserted [Product] [14] 
+txn[1017], 14:04:22.153, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1017], 14:04:22.153, Binding Insert [product]  set[name=新款2013秋冬独家款连帽绒衫3号字母运动保暖加绒三件套卫衣套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DoCK6n..., image_url=http://img03.taobaocdn.com/bao/uploaded/i3/1044..., price=138.01, view_count=0, ] 
+txn[1017], 14:04:22.154, Inserted [Product] [15] 
+txn[1018], 14:04:22.175, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1018], 14:04:22.177, Binding Insert [product]  set[name=童装2013新款秋冬款女童加厚加绒三件套儿童士兵卫衣套装杨幂同款, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DLyVve..., image_url=http://img03.taobaocdn.com/bao/uploaded/i3/1556..., price=95.00, view_count=0, ] 
+txn[1018], 14:04:22.179, Inserted [Product] [16] 
+txn[1019], 14:04:22.209, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1019], 14:04:22.209, Binding Insert [product]  set[name=卫衣三件套 加厚加绒连帽卫衣女装秋冬加厚套头休闲套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3D6H6O3..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/1125..., price=168.01, view_count=0, ] 
+txn[1019], 14:04:22.210, Inserted [Product] [17] 
+txn[1020], 14:04:22.230, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1020], 14:04:22.230, Binding Insert [product]  set[name=2013新款 韩版休闲宽松运动服 羊羔毛加厚保暖加绒卫衣套装三件套, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DEILbU..., image_url=http://img03.taobaocdn.com/bao/uploaded/i3/1357..., price=159.06, view_count=0, ] 
+txn[1020], 14:04:22.231, Inserted [Product] [18] 
+txn[1021], 14:04:22.253, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1021], 14:04:22.253, Binding Insert [product]  set[name=包邮独家款连帽绒衫3号字母运动保暖加绒三件套卫衣女套装加厚, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DV0r7E..., image_url=http://img03.taobaocdn.com/bao/uploaded/i3/T1k...., price=129.00, view_count=0, ] 
+txn[1021], 14:04:22.254, Inserted [Product] [19] 
+txn[1022], 14:04:22.275, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1022], 14:04:22.275, Binding Insert [product]  set[name=秋冬款加绒加厚女童卫衣套装织里童装小兔子连帽糖果色宝宝三件套, url=http://s.click.taobao.com/t?e=m%3D2%26s%3Dj6sY9..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/T1gv..., price=108.68, view_count=0, ] 
+txn[1022], 14:04:22.275, Inserted [Product] [20] 
+txn[1023], 14:04:22.297, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1023], 14:04:22.297, Binding Insert [product]  set[name=学生韩版运动休闲套装大笑脸加厚加绒卫衣三件套 可爱卡通卫衣女, url=http://s.click.taobao.com/t?e=m%3D2%26s%3Dpqkz6..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/1761..., price=248.00, view_count=0, ] 
+txn[1023], 14:04:22.297, Inserted [Product] [21] 
+txn[1024], 14:04:22.352, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1024], 14:04:22.353, Binding Insert [product]  set[name=2013新款韩版加厚卫衣三件套 女 冬装 秋冬加绒大码卫衣裙623, url=http://s.click.taobao.com/t?e=m%3D2%26s%3D8QTRH..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/1392..., price=258.03, view_count=0, ] 
+txn[1024], 14:04:22.353, Inserted [Product] [22] 
+txn[1025], 14:04:22.387, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1025], 14:04:22.387, Binding Insert [product]  set[name=2013韩版女新款休闲运动时尚加绒加厚保暖小鹿印花卫衣三件套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DNu%2B..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/1781..., price=152.00, view_count=0, ] 
+txn[1025], 14:04:22.388, Inserted [Product] [23] 
+txn[1026], 14:04:22.408, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1026], 14:04:22.408, Binding Insert [product]  set[name=2013秋冬季新款 休闲套装 三件套 加厚加绒 卫衣 时尚 韩 包邮, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DywoFb..., image_url=http://img03.taobaocdn.com/bao/uploaded/i3/1507..., price=310.00, view_count=0, ] 
+txn[1026], 14:04:22.409, Inserted [Product] [24] 
+txn[1027], 14:04:22.431, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1027], 14:04:22.431, Binding Insert [product]  set[name=2013秋冬新款韩版卫衣套装学院风加绒加厚连帽卫衣三件套通勤套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DadQg5..., image_url=http://img01.taobaocdn.com/bao/uploaded/i1/1891..., price=168.04, view_count=0, ] 
+txn[1027], 14:04:22.432, Inserted [Product] [25] 
+txn[1028], 14:04:22.453, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1028], 14:04:22.453, Binding Insert [product]  set[name=2013新品 抓绒连帽卫衣三件套加厚加绒秋冬装女 运动休闲套装韩版, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DBb%2B..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/1044..., price=378.10, view_count=0, ] 
+txn[1028], 14:04:22.453, Inserted [Product] [26] 
+txn[1029], 14:04:22.475, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1029], 14:04:22.475, Binding Insert [product]  set[name=2013年P-18冬季新款亲子装 卫衣马甲三件套 加绒加厚 YA6138-1, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DgwKV5..., image_url=http://img01.taobaocdn.com/bao/uploaded/i1/1621..., price=269.00, view_count=0, ] 
+txn[1029], 14:04:22.476, Inserted [Product] [27] 
+txn[1030], 14:04:22.509, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1030], 14:04:22.509, Binding Insert [product]  set[name=童装男童2013冬季新款韩版中大童加绒加厚保暖休闲卫衣三件套外套, url=http://s.click.taobao.com/t?e=m%3D2%26s%3D0COs6..., image_url=http://img01.taobaocdn.com/bao/uploaded/i1/1422..., price=134.40, view_count=0, ] 
+txn[1030], 14:04:22.510, Inserted [Product] [28] 
+txn[1031], 14:04:22.530, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1031], 14:04:22.531, Binding Insert [product]  set[name=童装中大女童2013秋冬装新款儿童三件套加厚加绒卫衣运动休闲套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DQzKDC..., image_url=http://img03.taobaocdn.com/bao/uploaded/i3/T1u7..., price=112.01, view_count=0, ] 
+txn[1031], 14:04:22.531, Inserted [Product] [29] 
+txn[1032], 14:04:22.553, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1032], 14:04:22.553, Binding Insert [product]  set[name=2013冬季女童加厚运动套装马甲卫衣休闲三件套加绒加厚保暖家居服, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DH8xEI..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/1671..., price=139.00, view_count=0, ] 
+txn[1032], 14:04:22.553, Inserted [Product] [30] 
+txn[1033], 14:04:22.575, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1033], 14:04:22.575, Binding Insert [product]  set[name=韩版 女士卫衣三件套加厚加绒卫衣套装中学生女款秋冬季大码连帽, url=http://s.click.taobao.com/t?e=m%3D2%26s%3D5Tb26..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/1965..., price=188.00, view_count=0, ] 
+txn[1033], 14:04:22.576, Inserted [Product] [31] 
+txn[1034], 14:04:22.597, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1034], 14:04:22.597, Binding Insert [product]  set[name=2097#韩版加绒卫衣三件套加厚卫衣套装 秋冬女装运动休闲套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DE9fHV..., image_url=http://img01.taobaocdn.com/bao/uploaded/i1/1854..., price=113.00, view_count=0, ] 
+txn[1034], 14:04:22.598, Inserted [Product] [32] 
+txn[1035], 14:04:22.619, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1035], 14:04:22.619, Binding Insert [product]  set[name=2013秋冬装童装女童三件套 儿童中大童女童韩版加绒加厚卫衣套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3D%2FjL..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/1412..., price=128.00, view_count=0, ] 
+txn[1035], 14:04:22.620, Inserted [Product] [33] 
+txn[1036], 14:04:22.654, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1036], 14:04:22.654, Binding Insert [product]  set[name=特价冬装童装女童套装加厚儿童卫衣三件套大女童加绒运动套装韩版, url=http://s.click.taobao.com/t?e=m%3D2%26s%3D2sdV3..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/1551..., price=89.01, view_count=0, ] 
+txn[1036], 14:04:22.654, Inserted [Product] [34] 
+txn[1037], 14:04:22.675, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1037], 14:04:22.675, Binding Insert [product]  set[name=2013新款女装秋装加绒加厚宽松卫衣潮 春秋冬新韩版套头三件套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DTYFfz..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/1894..., price=136.00, view_count=0, ] 
+txn[1037], 14:04:22.676, Inserted [Product] [35] 
+txn[1038], 14:04:22.697, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1038], 14:04:22.697, Binding Insert [product]  set[name=2013秋冬新款大码女装韩版加厚加绒卫衣三件套修身显瘦女外套秋冬, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DX9U4b..., image_url=http://img03.taobaocdn.com/bao/uploaded/i3/1499..., price=180.00, view_count=0, ] 
+txn[1038], 14:04:22.698, Inserted [Product] [36] 
+txn[1039], 14:04:22.719, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1039], 14:04:22.719, Binding Insert [product]  set[name=正品儿童冬装卫衣三件套宝宝运动服全棉宝宝套装潮款韩版加绒加厚, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DyBmfu..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/T18e..., price=132.60, view_count=0, ] 
+txn[1039], 14:04:22.720, Inserted [Product] [37] 
+txn[1040], 14:04:22.741, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1040], 14:04:22.742, Binding Insert [product]  set[name=小爸爸马伊俐同款套头三件套加绒加厚2013新款卫衣女秋冬装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DsrLs%..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/1186..., price=156.00, view_count=0, ] 
+txn[1040], 14:04:22.758, Inserted [Product] [38] 
+txn[1041], 14:04:22.797, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1041], 14:04:22.797, Binding Insert [product]  set[name=全国包邮 童装男童新款冬装 中大儿童韩版加绒加厚卫衣三件套 潮, url=http://s.click.taobao.com/t?e=m%3D2%26s%3D3MFm1..., image_url=http://img03.taobaocdn.com/bao/uploaded/i3/1362..., price=125.04, view_count=0, ] 
+txn[1041], 14:04:22.798, Inserted [Product] [39] 
+txn[1042], 14:04:22.876, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1042], 14:04:22.876, Binding Insert [product]  set[name=2013春秋季冬装加绒大码连帽卫衣套装 女胖mm加厚三件套, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DcTa9D..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/1900..., price=198.75, view_count=0, ] 
+txn[1042], 14:04:22.877, Inserted [Product] [40] 
+txn[1043], 16:44:24.685, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1043], 16:44:24.685, Binding Insert [product]  set[name=若印秋冬新款三件套 大码女韩版抓绒加绒休闲套装 加厚保暖卫衣, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DiGXOU..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/1761..., price=329.00, view_count=0, ] 
+txn[1043], 16:44:24.686, Inserted [Product] [41] 
+txn[1044], 16:44:24.735, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1044], 16:44:24.735, Binding Insert [product]  set[name=卫衣三件套 加厚加绒连帽卫衣女装秋冬加厚套头休闲套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3D4SgO5..., image_url=http://img03.taobaocdn.com/bao/uploaded/i3/1125..., price=168.01, view_count=0, ] 
+txn[1044], 16:44:24.751, Inserted [Product] [42] 
+txn[1045], 16:44:24.791, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1045], 16:44:24.791, Binding Insert [product]  set[name=欧洲站2012秋冬新款羽绒服三件套女修身棉衣加绒加厚连帽卫衣套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DsWmOL..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/1988..., price=389.02, view_count=0, ] 
+txn[1045], 16:44:24.792, Inserted [Product] [43] 
+txn[1046], 16:44:24.813, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1046], 16:44:24.814, Binding Insert [product]  set[name=2013春秋冬装加绒大码休闲运动服套装女款韩版加厚卫衣三件套宽松, url=http://s.click.taobao.com/t?e=m%3D2%26s%3Dvs9eG..., image_url=http://img01.taobaocdn.com/bao/uploaded/i1/1044..., price=323.00, view_count=0, ] 
+txn[1046], 16:44:24.815, Inserted [Product] [44] 
+txn[1047], 16:44:24.843, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1047], 16:44:24.843, Binding Insert [product]  set[name=秋冬女装韩版外套女士胖MM大码加厚加绒大嘴猴卫衣三件套套装女款, url=http://s.click.taobao.com/t?e=m%3D2%26s%3Dw%2Fz..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/1580..., price=138.00, view_count=0, ] 
+txn[1047], 16:44:24.844, Inserted [Product] [45] 
+txn[1048], 16:44:24.869, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1048], 16:44:24.869, Binding Insert [product]  set[name=2013韩版女士秋冬加绒加厚连帽卫衣女装裙女字母卫衣三件套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DXIicX..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/T1gn..., price=159.00, view_count=0, ] 
+txn[1048], 16:44:24.869, Inserted [Product] [46] 
+txn[1049], 16:44:24.891, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1049], 16:44:24.891, Binding Insert [product]  set[name=包邮2013冬款连帽加厚加绒三件套卫衣女外套松紧腰围长裤运动套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DgeH%2..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/1924..., price=299.00, view_count=0, ] 
+txn[1049], 16:44:24.892, Inserted [Product] [47] 
+txn[1050], 16:44:24.913, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1050], 16:44:24.914, Binding Insert [product]  set[name=孕妇装 秋冬孕妇三件套装 孕妇加绒加厚卫衣马甲 时尚韩版孕冬装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DcwYon..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/1773..., price=158.00, view_count=0, ] 
+txn[1050], 16:44:24.914, Inserted [Product] [48] 
+txn[1051], 16:44:24.935, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1051], 16:44:24.935, Binding Insert [product]  set[name=儿童韩版卫衣三件套加绒加厚品牌童装女童秋冬装2013新款运动套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DbAaFC..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/1126..., price=158.00, view_count=0, ] 
+txn[1051], 16:44:24.936, Inserted [Product] [49] 
+txn[1052], 16:44:24.965, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1052], 16:44:24.965, Binding Insert [product]  set[name=冬季女装卫衣三件套加厚加绒连帽女外套 可爱学生休闲运动套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3Df85YA..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/1948..., price=145.00, view_count=0, ] 
+txn[1052], 16:44:24.966, Inserted [Product] [50] 
+txn[1053], 16:44:24.991, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1053], 16:44:24.991, Binding Insert [product]  set[name=童装冬装 女童加厚加绒卫衣三件套 北级绒棉衣 韩版时尚公主套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DfPnpJ..., image_url=http://img03.taobaocdn.com/bao/uploaded/i3/1772..., price=128.00, view_count=0, ] 
+txn[1053], 16:44:24.992, Inserted [Product] [51] 
+txn[1054], 16:44:25.013, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1054], 16:44:25.013, Binding Insert [product]  set[name=冬装新款卫衣三件套装女装韩版潮女士运动服套装加绒加厚休闲套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DPH7Zu..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/1614..., price=385.20, view_count=0, ] 
+txn[1054], 16:44:25.014, Inserted [Product] [52] 
+txn[1055], 16:44:25.035, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1055], 16:44:25.035, Binding Insert [product]  set[name=2013最新款女装卫衣三件套秋冬韩版加厚加绒连帽学生运动休闲包邮, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DZN6t5..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/1076..., price=169.00, view_count=0, ] 
+txn[1055], 16:44:25.036, Inserted [Product] [53] 
+txn[1056], 16:44:25.058, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1056], 16:44:25.058, Binding Insert [product]  set[name=新款上市女装秋冬季学生卫衣三件套外套韩版大码卫衣加厚加绒套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DAVG%2..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/1076..., price=188.00, view_count=0, ] 
+txn[1056], 16:44:25.059, Inserted [Product] [54] 
+txn[1057], 16:44:25.080, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1057], 16:44:25.080, Binding Insert [product]  set[name=新款2013秋冬独家款连帽绒衫3号字母运动保暖加绒三件套卫衣套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DoCK6n..., image_url=http://img03.taobaocdn.com/bao/uploaded/i3/1044..., price=138.01, view_count=0, ] 
+txn[1057], 16:44:25.081, Inserted [Product] [55] 
+txn[1058], 16:44:25.110, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1058], 16:44:25.110, Binding Insert [product]  set[name=童装2013新款秋冬款女童加厚加绒三件套儿童士兵卫衣套装杨幂同款, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DLyVve..., image_url=http://img03.taobaocdn.com/bao/uploaded/i3/1556..., price=95.00, view_count=0, ] 
+txn[1058], 16:44:25.111, Inserted [Product] [56] 
+txn[1059], 16:44:25.135, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1059], 16:44:25.136, Binding Insert [product]  set[name=卫衣三件套 加厚加绒连帽卫衣女装秋冬加厚套头休闲套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3D6H6O3..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/1125..., price=168.01, view_count=0, ] 
+txn[1059], 16:44:25.136, Inserted [Product] [57] 
+txn[1060], 16:44:25.158, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1060], 16:44:25.158, Binding Insert [product]  set[name=2013新款 韩版休闲宽松运动服 羊羔毛加厚保暖加绒卫衣套装三件套, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DEILbU..., image_url=http://img03.taobaocdn.com/bao/uploaded/i3/1357..., price=159.06, view_count=0, ] 
+txn[1060], 16:44:25.158, Inserted [Product] [58] 
+txn[1061], 16:44:25.180, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1061], 16:44:25.180, Binding Insert [product]  set[name=包邮独家款连帽绒衫3号字母运动保暖加绒三件套卫衣女套装加厚, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DV0r7E..., image_url=http://img03.taobaocdn.com/bao/uploaded/i3/T1k...., price=129.00, view_count=0, ] 
+txn[1061], 16:44:25.182, Inserted [Product] [59] 
+txn[1062], 16:44:25.202, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1062], 16:44:25.202, Binding Insert [product]  set[name=秋冬款加绒加厚女童卫衣套装织里童装小兔子连帽糖果色宝宝三件套, url=http://s.click.taobao.com/t?e=m%3D2%26s%3Dj6sY9..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/T1gv..., price=108.68, view_count=0, ] 
+txn[1062], 16:44:25.203, Inserted [Product] [60] 
+txn[1063], 16:44:25.224, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1063], 16:44:25.225, Binding Insert [product]  set[name=学生韩版运动休闲套装大笑脸加厚加绒卫衣三件套 可爱卡通卫衣女, url=http://s.click.taobao.com/t?e=m%3D2%26s%3Dpqkz6..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/1761..., price=248.00, view_count=0, ] 
+txn[1063], 16:44:25.225, Inserted [Product] [61] 
+txn[1064], 16:44:25.254, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1064], 16:44:25.254, Binding Insert [product]  set[name=2013新款韩版加厚卫衣三件套 女 冬装 秋冬加绒大码卫衣裙623, url=http://s.click.taobao.com/t?e=m%3D2%26s%3D8QTRH..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/1392..., price=258.03, view_count=0, ] 
+txn[1064], 16:44:25.255, Inserted [Product] [62] 
+txn[1065], 16:44:25.280, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1065], 16:44:25.280, Binding Insert [product]  set[name=2013韩版女新款休闲运动时尚加绒加厚保暖小鹿印花卫衣三件套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DNu%2B..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/1781..., price=152.00, view_count=0, ] 
+txn[1065], 16:44:25.282, Inserted [Product] [63] 
+txn[1066], 16:44:25.302, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1066], 16:44:25.302, Binding Insert [product]  set[name=2013秋冬季新款 休闲套装 三件套 加厚加绒 卫衣 时尚 韩 包邮, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DywoFb..., image_url=http://img03.taobaocdn.com/bao/uploaded/i3/1507..., price=310.00, view_count=0, ] 
+txn[1066], 16:44:25.303, Inserted [Product] [64] 
+txn[1067], 16:44:25.324, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1067], 16:44:25.324, Binding Insert [product]  set[name=2013秋冬新款韩版卫衣套装学院风加绒加厚连帽卫衣三件套通勤套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DadQg5..., image_url=http://img01.taobaocdn.com/bao/uploaded/i1/1891..., price=168.04, view_count=0, ] 
+txn[1067], 16:44:25.325, Inserted [Product] [65] 
+txn[1068], 16:44:25.346, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1068], 16:44:25.347, Binding Insert [product]  set[name=2013新品 抓绒连帽卫衣三件套加厚加绒秋冬装女 运动休闲套装韩版, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DBb%2B..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/1044..., price=378.10, view_count=0, ] 
+txn[1068], 16:44:25.348, Inserted [Product] [66] 
+txn[1069], 16:44:25.376, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1069], 16:44:25.377, Binding Insert [product]  set[name=2013年P-18冬季新款亲子装 卫衣马甲三件套 加绒加厚 YA6138-1, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DgwKV5..., image_url=http://img01.taobaocdn.com/bao/uploaded/i1/1621..., price=269.00, view_count=0, ] 
+txn[1069], 16:44:25.378, Inserted [Product] [67] 
+txn[1070], 16:44:25.402, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1070], 16:44:25.402, Binding Insert [product]  set[name=童装男童2013冬季新款韩版中大童加绒加厚保暖休闲卫衣三件套外套, url=http://s.click.taobao.com/t?e=m%3D2%26s%3D0COs6..., image_url=http://img01.taobaocdn.com/bao/uploaded/i1/1422..., price=134.40, view_count=0, ] 
+txn[1070], 16:44:25.403, Inserted [Product] [68] 
+txn[1071], 16:44:25.424, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1071], 16:44:25.424, Binding Insert [product]  set[name=童装中大女童2013秋冬装新款儿童三件套加厚加绒卫衣运动休闲套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DQzKDC..., image_url=http://img03.taobaocdn.com/bao/uploaded/i3/T1u7..., price=112.01, view_count=0, ] 
+txn[1071], 16:44:25.425, Inserted [Product] [69] 
+txn[1072], 16:44:25.447, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1072], 16:44:25.448, Binding Insert [product]  set[name=2013冬季女童加厚运动套装马甲卫衣休闲三件套加绒加厚保暖家居服, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DH8xEI..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/1671..., price=139.00, view_count=0, ] 
+txn[1072], 16:44:25.448, Inserted [Product] [70] 
+txn[1073], 16:44:25.469, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1073], 16:44:25.469, Binding Insert [product]  set[name=韩版 女士卫衣三件套加厚加绒卫衣套装中学生女款秋冬季大码连帽, url=http://s.click.taobao.com/t?e=m%3D2%26s%3D5Tb26..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/1965..., price=188.00, view_count=0, ] 
+txn[1073], 16:44:25.469, Inserted [Product] [71] 
+txn[1074], 16:44:25.491, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1074], 16:44:25.491, Binding Insert [product]  set[name=2097#韩版加绒卫衣三件套加厚卫衣套装 秋冬女装运动休闲套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DE9fHV..., image_url=http://img01.taobaocdn.com/bao/uploaded/i1/1854..., price=113.00, view_count=0, ] 
+txn[1074], 16:44:25.492, Inserted [Product] [72] 
+txn[1075], 16:44:25.560, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1075], 16:44:25.561, Binding Insert [product]  set[name=2013秋冬装童装女童三件套 儿童中大童女童韩版加绒加厚卫衣套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3D%2FjL..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/1412..., price=128.00, view_count=0, ] 
+txn[1075], 16:44:25.561, Inserted [Product] [73] 
+txn[1076], 16:44:25.582, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1076], 16:44:25.582, Binding Insert [product]  set[name=特价冬装童装女童套装加厚儿童卫衣三件套大女童加绒运动套装韩版, url=http://s.click.taobao.com/t?e=m%3D2%26s%3D2sdV3..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/1551..., price=89.01, view_count=0, ] 
+txn[1076], 16:44:25.583, Inserted [Product] [74] 
+txn[1077], 16:44:25.602, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1077], 16:44:25.602, Binding Insert [product]  set[name=2013新款女装秋装加绒加厚宽松卫衣潮 春秋冬新韩版套头三件套装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DTYFfz..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/1894..., price=136.00, view_count=0, ] 
+txn[1077], 16:44:25.602, Inserted [Product] [75] 
+txn[1078], 16:44:25.624, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1078], 16:44:25.624, Binding Insert [product]  set[name=2013秋冬新款大码女装韩版加厚加绒卫衣三件套修身显瘦女外套秋冬, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DX9U4b..., image_url=http://img03.taobaocdn.com/bao/uploaded/i3/1499..., price=180.00, view_count=0, ] 
+txn[1078], 16:44:25.625, Inserted [Product] [76] 
+txn[1079], 16:44:25.646, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1079], 16:44:25.646, Binding Insert [product]  set[name=正品儿童冬装卫衣三件套宝宝运动服全棉宝宝套装潮款韩版加绒加厚, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DyBmfu..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/T18e..., price=132.60, view_count=0, ] 
+txn[1079], 16:44:25.647, Inserted [Product] [77] 
+txn[1080], 16:44:25.669, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1080], 16:44:25.669, Binding Insert [product]  set[name=小爸爸马伊俐同款套头三件套加绒加厚2013新款卫衣女秋冬装, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DsrLs%..., image_url=http://img04.taobaocdn.com/bao/uploaded/i4/1186..., price=156.00, view_count=0, ] 
+txn[1080], 16:44:25.669, Inserted [Product] [78] 
+txn[1081], 16:44:25.699, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1081], 16:44:25.699, Binding Insert [product]  set[name=全国包邮 童装男童新款冬装 中大儿童韩版加绒加厚卫衣三件套 潮, url=http://s.click.taobao.com/t?e=m%3D2%26s%3D3MFm1..., image_url=http://img03.taobaocdn.com/bao/uploaded/i3/1362..., price=125.04, view_count=0, ] 
+txn[1081], 16:44:25.699, Inserted [Product] [79] 
+txn[1082], 16:44:25.724, insert into product (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1082], 16:44:25.724, Binding Insert [product]  set[name=2013春秋季冬装加绒大码连帽卫衣套装 女胖mm加厚三件套, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DcTa9D..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/1900..., price=198.75, view_count=0, ] 
+txn[1082], 16:44:25.725, Inserted [Product] [80] 
+txn[1001], 20:28:03.888, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 
+txn[1001], 20:28:04.222, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[333440] rows[20] name[] predicates[] bind[] 
+txn[1002], 20:28:04.271, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1002], 20:28:04.277, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[6173] rows[20] name[] predicates[] bind[] 
+txn[1004], 20:28:04.287, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1004], 20:28:04.290, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2992] rows[20] name[] predicates[] bind[] 
+txn[1005], 20:28:04.291, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1005], 20:28:04.294, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2680] rows[20] name[] predicates[] bind[] 
+txn[1003], 20:28:04.289, select count(*)  from product t0 
+txn[1003], 20:28:04.319, FindRowCount exeMicros[29594] rows[80] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1006], 20:29:01.850, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 22 
+txn[1006], 20:29:01.852, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2415] rows[21] name[] predicates[] bind[] 
+txn[1008], 20:29:01.853, select count(*)  from product t0 
+txn[1008], 20:29:01.854, FindRowCount exeMicros[425] rows[80] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1007], 20:29:01.853, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 22 offset 21 
+txn[1007], 20:29:01.856, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2596] rows[21] name[] predicates[] bind[] 
+txn[1009], 20:29:01.860, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 22 offset 42 
+txn[1009], 20:29:01.862, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2471] rows[21] name[] predicates[] bind[] 
+txn[1010], 20:29:01.864, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 22 offset 63 
+txn[1010], 20:29:01.867, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2784] rows[17] name[] predicates[] bind[] 
+txn[1011], 20:29:24.759, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 81 
+txn[1011], 20:29:24.765, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[5619] rows[80] name[] predicates[] bind[] 
+txn[1012], 20:29:24.766, select count(*)  from product t0 
+txn[1012], 20:29:24.766, FindRowCount exeMicros[384] rows[80] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1013], 20:29:49.679, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 31 
+txn[1013], 20:29:49.682, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2306] rows[30] name[] predicates[] bind[] 
+txn[1014], 20:29:49.682, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 31 offset 30 
+txn[1014], 20:29:49.685, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2552] rows[30] name[] predicates[] bind[] 
+txn[1016], 20:29:49.686, select count(*)  from product t0 
+txn[1016], 20:29:49.686, FindRowCount exeMicros[340] rows[80] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1015], 20:29:49.695, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 31 offset 60 
+txn[1015], 20:29:49.706, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[11530] rows[20] name[] predicates[] bind[] 
+txn[1017], 20:53:35.143, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 
+txn[1017], 20:53:35.147, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[4418] rows[20] name[] predicates[] bind[] 
+txn[1019], 20:53:35.150, select count(*)  from product t0 
+txn[1019], 20:53:35.151, FindRowCount exeMicros[1006] rows[80] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1018], 20:53:35.150, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1018], 20:53:35.151, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1692] rows[20] name[] predicates[] bind[] 
+txn[1020], 20:53:35.152, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1020], 20:53:35.154, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2373] rows[20] name[] predicates[] bind[] 
+txn[1021], 20:53:35.155, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1021], 20:53:35.156, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[819] rows[20] name[] predicates[] bind[] 
+txn[1022], 20:54:08.757, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 
+txn[1022], 20:54:08.758, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1055] rows[20] name[] predicates[] bind[] 
+txn[1024], 20:54:08.759, select count(*)  from product t0 
+txn[1024], 20:54:08.760, FindRowCount exeMicros[329] rows[80] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1023], 20:54:08.760, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1023], 20:54:08.762, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2243] rows[20] name[] predicates[] bind[] 
+txn[1025], 20:54:08.763, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1025], 20:54:08.765, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1938] rows[20] name[] predicates[] bind[] 
+txn[1026], 20:54:08.767, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1026], 20:54:08.768, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1107] rows[20] name[] predicates[] bind[] 
+txn[1027], 21:04:46.339, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 
+txn[1027], 21:04:46.341, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1940] rows[20] name[] predicates[] bind[] 
+txn[1029], 21:04:46.342, select count(*)  from product t0 
+txn[1029], 21:04:46.343, FindRowCount exeMicros[431] rows[80] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1028], 21:04:46.342, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1028], 21:04:46.343, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1364] rows[20] name[] predicates[] bind[] 
+txn[1030], 21:04:46.344, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1030], 21:04:46.345, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1121] rows[20] name[] predicates[] bind[] 
+txn[1031], 21:04:46.346, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1031], 21:04:46.347, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1011] rows[20] name[] predicates[] bind[] 
+txn[1032], 21:05:49.528, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 
+txn[1032], 21:05:49.531, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2420] rows[20] name[] predicates[] bind[] 
+txn[1034], 21:05:49.533, select count(*)  from product t0 
+txn[1034], 21:05:49.534, FindRowCount exeMicros[662] rows[80] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1033], 21:05:49.532, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1033], 21:05:49.540, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[7443] rows[20] name[] predicates[] bind[] 
+txn[1035], 21:05:49.541, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1035], 21:05:49.548, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[6666] rows[20] name[] predicates[] bind[] 
+txn[1036], 21:05:49.550, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1036], 21:05:49.552, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1690] rows[20] name[] predicates[] bind[] 
+txn[1037], 21:07:47.282, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 
+txn[1037], 21:07:47.287, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[5116] rows[20] name[] predicates[] bind[] 
+txn[1039], 21:07:47.289, select count(*)  from product t0 
+txn[1039], 21:07:47.295, FindRowCount exeMicros[6209] rows[80] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1038], 21:07:47.294, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1038], 21:07:47.297, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[3058] rows[20] name[] predicates[] bind[] 
+txn[1040], 21:07:47.298, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1040], 21:07:47.302, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[3642] rows[20] name[] predicates[] bind[] 
+txn[1041], 21:07:47.303, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1041], 21:07:47.304, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[877] rows[20] name[] predicates[] bind[] 
+txn[1042], 21:07:48.837, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 
+txn[1042], 21:07:48.839, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1803] rows[20] name[] predicates[] bind[] 
+txn[1043], 21:07:48.841, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1043], 21:07:48.843, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2028] rows[20] name[] predicates[] bind[] 
+txn[1045], 21:07:48.844, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1045], 21:07:48.846, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1777] rows[20] name[] predicates[] bind[] 
+txn[1046], 21:07:48.848, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1046], 21:07:48.850, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1813] rows[20] name[] predicates[] bind[] 
+txn[1044], 21:07:48.841, select count(*)  from product t0 
+txn[1044], 21:07:48.842, FindRowCount exeMicros[1439] rows[80] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1047], 21:07:49.290, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 
+txn[1047], 21:07:49.297, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[7214] rows[20] name[] predicates[] bind[] 
+txn[1049], 21:07:49.298, select count(*)  from product t0 
+txn[1049], 21:07:49.299, FindRowCount exeMicros[408] rows[80] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1048], 21:07:49.298, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1048], 21:07:49.303, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[4732] rows[20] name[] predicates[] bind[] 
+txn[1050], 21:07:49.304, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1050], 21:07:49.306, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1343] rows[20] name[] predicates[] bind[] 
+txn[1051], 21:07:49.307, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1051], 21:07:49.311, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1460] rows[20] name[] predicates[] bind[] 
+txn[1052], 21:07:49.504, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 
+txn[1052], 21:07:49.505, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[747] rows[20] name[] predicates[] bind[] 
+txn[1054], 21:07:49.505, select count(*)  from product t0 
+txn[1054], 21:07:49.506, FindRowCount exeMicros[529] rows[80] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1053], 21:07:49.505, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1053], 21:07:49.506, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1029] rows[20] name[] predicates[] bind[] 
+txn[1055], 21:07:49.507, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1055], 21:07:49.508, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[852] rows[20] name[] predicates[] bind[] 
+txn[1056], 21:07:49.508, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1056], 21:07:49.510, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1202] rows[20] name[] predicates[] bind[] 
+txn[1057], 21:08:16.058, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 
+txn[1057], 21:08:16.061, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2600] rows[20] name[] predicates[] bind[] 
+txn[1058], 21:08:16.063, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1058], 21:08:16.068, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[5180] rows[20] name[] predicates[] bind[] 
+txn[1060], 21:08:16.071, select count(*)  from product t0 
+txn[1060], 21:08:16.072, FindRowCount exeMicros[942] rows[80] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1059], 21:08:16.071, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1059], 21:08:16.073, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2121] rows[20] name[] predicates[] bind[] 
+txn[1061], 21:08:16.075, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1061], 21:08:16.076, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1785] rows[20] name[] predicates[] bind[] 
+txn[1062], 21:08:56.723, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 
+txn[1062], 21:08:56.724, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1174] rows[20] name[] predicates[] bind[] 
+txn[1064], 21:08:56.725, select count(*)  from product t0 
+txn[1064], 21:08:56.725, FindRowCount exeMicros[526] rows[80] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1063], 21:08:56.725, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1063], 21:08:56.728, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[3098] rows[20] name[] predicates[] bind[] 
+txn[1065], 21:08:56.729, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1065], 21:08:56.735, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[6129] rows[20] name[] predicates[] bind[] 
+txn[1066], 21:08:56.736, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1066], 21:08:56.737, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1217] rows[20] name[] predicates[] bind[] 

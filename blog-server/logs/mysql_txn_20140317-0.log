@@ -1,0 +1,56 @@
+txn[1003], 16:30:49.214, insert into categoty (name, parent_id) values (?,?) 
+txn[1003], 16:30:49.215, Binding Insert [categoty]  set[name=计算机语言, parent_id=0, ] 
+txn[1003], 16:30:49.217, Inserted [Category] [1] 
+txn[1003], 16:32:02.723, insert into categoty (name, parent_id) values (?,?) 
+txn[1003], 16:32:02.724, Binding Insert [categoty]  set[name=计算机语言, parent_id=0, ] 
+txn[1003], 16:32:02.727, Inserted [Category] [1] 
+txn[1004], 16:32:38.105, insert into categoty (name, parent_id) values (?,?) 
+txn[1004], 16:32:38.105, Binding Insert [categoty]  set[name=移动互联网, parent_id=0, ] 
+txn[1004], 16:32:38.105, Inserted [Category] [2] 
+txn[1005], 16:32:57.856, insert into categoty (name, parent_id) values (?,?) 
+txn[1005], 16:32:57.856, Binding Insert [categoty]  set[name=java, parent_id=1, ] 
+txn[1005], 16:32:57.857, Inserted [Category] [3] 
+txn[1006], 16:33:09.625, insert into categoty (name, parent_id) values (?,?) 
+txn[1006], 16:33:09.625, Binding Insert [categoty]  set[name=c语言, parent_id=1, ] 
+txn[1006], 16:33:09.626, Inserted [Category] [4] 
+txn[1007], 16:33:16.475, insert into categoty (name, parent_id) values (?,?) 
+txn[1007], 16:33:16.476, Binding Insert [categoty]  set[name=c++, parent_id=1, ] 
+txn[1007], 16:33:16.478, Inserted [Category] [5] 
+txn[1008], 16:33:23.382, insert into categoty (name, parent_id) values (?,?) 
+txn[1008], 16:33:23.382, Binding Insert [categoty]  set[name=c#, parent_id=1, ] 
+txn[1008], 16:33:23.382, Inserted [Category] [6] 
+txn[1009], 16:33:40.859, insert into categoty (name, parent_id) values (?,?) 
+txn[1009], 16:33:40.859, Binding Insert [categoty]  set[name=python, parent_id=1, ] 
+txn[1009], 16:33:40.861, Inserted [Category] [7] 
+txn[1010], 16:34:10.105, insert into categoty (name, parent_id) values (?,?) 
+txn[1010], 16:34:10.105, Binding Insert [categoty]  set[name=android, parent_id=2, ] 
+txn[1010], 16:34:10.106, Inserted [Category] [8] 
+txn[1011], 16:34:18.487, insert into categoty (name, parent_id) values (?,?) 
+txn[1011], 16:34:18.487, Binding Insert [categoty]  set[name=ios, parent_id=2, ] 
+txn[1011], 16:34:18.489, Inserted [Category] [9] 
+txn[1012], 16:34:26.522, insert into categoty (name, parent_id) values (?,?) 
+txn[1012], 16:34:26.522, Binding Insert [categoty]  set[name=其他, parent_id=2, ] 
+txn[1012], 16:34:26.523, Inserted [Category] [10] 
+txn[1013], 16:34:37.478, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1013], 16:34:37.484, FindMany type[Category] origin[Bh1uSF.Ckp3Q-.CiX3BZ] exeMicros[6498] rows[2] name[] predicates[t0.parent_id = ? ] bind[0] 
+txn[1014], 16:34:37.486, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1014], 16:34:37.487, FindMany type[Category] origin[Bh1uSM.Ckp3Q-.CiX3BZ] exeMicros[1163] rows[5] name[] predicates[t0.parent_id = ? ] bind[1] 
+txn[1015], 16:34:37.489, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1015], 16:34:37.490, FindMany type[Category] origin[Bh1uSM.Ckp3Q-.CiX3BZ] exeMicros[1068] rows[3] name[] predicates[t0.parent_id = ? ] bind[2] 
+txn[1003], 16:55:00.533, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1003], 16:55:00.539, FindMany type[Category] origin[Bh1uSF.Ckp3Q-.CiX3BZ] exeMicros[5206] rows[0] name[] predicates[t0.parent_id = ? ] bind[0] 
+txn[1002], 16:57:54.316, Rollback 
+txn[1001], 17:08:08.225, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1001], 17:08:08.247, ERROR executing query:   bindLog[0] error[Table 'blog.categoty' doesn't exist] 
+txn[1001], 17:08:08.251, Rollback 
+txn[1003], 17:09:23.655, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1003], 17:09:23.661, FindMany type[Category] origin[Bh1uSF.Ckp3Q-.CiX3BZ] exeMicros[5315] rows[0] name[] predicates[t0.parent_id = ? ] bind[0] 
+txn[1001], 17:27:19.209, insert into categoty (name, parent_id) values (?,?) 
+txn[1001], 17:27:19.229, Binding Insert [categoty]  set[name=其他, parent_id=2, ] 
+txn[1001], 17:27:19.234, Inserted [Category] [1] 
+txn[1001], 17:31:49.583, insert into categoty (name, parent_id) values (?,?) 
+txn[1001], 17:31:49.609, Binding Insert [categoty]  set[name=其他, parent_id=2, ] 
+txn[1001], 17:31:49.616, Inserted [Category] [2] 
+txn[1002], 17:36:03.051, insert into blog (user, email, blog_title, blog_content, category_1, category_1_name, category_2, category_2_name, create_time) values (?,?,?,?,?,?,?,?,?) 
+txn[1002], 17:36:03.204, Binding Insert [blog]  set[user=黒乌, email=adf@126.com, blog_title=人人, blog_content=柔柔弱弱, category_1=1, category_1_name=计算机语言, category_2=3, category_2_name=java, create_time=Mon Mar 17 17:36:03 CST 2014, ] 
+txn[1002], 17:36:03.219, Inserted [Blog] [1] 

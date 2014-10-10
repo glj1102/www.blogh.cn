@@ -1,0 +1,221 @@
+txn[1001], 11:36:37.741, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.view_count desc  limit 11 
+txn[1001], 11:36:37.960, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[219196] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1003], 11:36:37.741, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1003], 11:36:37.945, FindMany type[Category] origin[Bh1uSG.Ckp3Q-.Dqun67] exeMicros[203729] rows[1] name[] predicates[t0.parent_id = ? ] bind[0] 
+txn[1002], 11:36:37.741, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.id desc  limit 11 
+txn[1002], 11:36:37.959, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[218126] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1005], 11:36:37.972, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1005], 11:36:37.973, FindMany type[Category] origin[Bh1uSN.Ckp3Q-.Dqun67] exeMicros[973] rows[1] name[] predicates[t0.parent_id = ? ] bind[1] 
+txn[1004], 11:36:37.976, select count(*)  from blog t0  where t0.status = ?  
+txn[1004], 11:36:37.995, FindRowCount exeMicros[18719] rows[1] type[com.blog.models.Blog] predicates[t0.status = ? ] bind[normal] 
+txn[1006], 11:36:41.004, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0 where t0.id = ?   
+txn[1006], 11:36:41.008, FindBean type[Blog] origin[CHetJS.CYzEuZ.C4twtZ] exeMicros[4102] rows[1] bind[21] 
+txn[1007], 11:36:41.015, update blog set view_count=? where id=? and user=? and email=? and blog_title=? and blog_content=? and category_1=? and category_1_name=? and category_2=? and category_2_name=? and create_time=? and status=? and view_count=? 
+txn[1007], 11:36:41.018, Binding Update [blog]  set[view_count=5, ] where[id=21, user=啊啊啊啊啊啊啊, email=1056847534@qq.com, blog_title=啊啊啊啊啊啊啊, blog_content=啊啊啊啊啊啊啊啊啊啊, category_1=1, category_1_name=test, category_2=2, category_2_name=aaa, create_time=Fri Apr 04 09:58:54 CST 2014, status=normal, view_count=4, ] 
+txn[1007], 11:36:41.100, Updated [Blog] [21] 
+txn[1008], 11:39:35.910, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.id = ?  and t0.status = ?  
+txn[1008], 11:39:35.912, FindMany type[Blog] origin[BOrMM.CYzEua.CJRbHA] exeMicros[1984] rows[1] name[] predicates[t0.id = ?  and t0.status = ? ] bind[21, normal] 
+txn[1009], 11:39:35.913, select count(*)  from comment t0  where t0.blog_id = ?  and t0.status = ?  
+txn[1009], 11:39:35.956, FindRowCount exeMicros[43417] rows[0] type[com.blog.models.Comment] predicates[t0.blog_id = ?  and t0.status = ? ] bind[21, normal] 
+txn[1011], 11:39:36.236, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1011], 11:39:36.237, FindMany type[Category] origin[Bh1uSG.Ckp3Q-.Dqun67] exeMicros[1475] rows[1] name[] predicates[t0.parent_id = ? ] bind[0] 
+txn[1010], 11:39:36.237, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.view_count desc  limit 11 
+txn[1010], 11:39:36.238, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[1273] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1013], 11:39:36.238, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1013], 11:39:36.240, FindMany type[Category] origin[Bh1uSN.Ckp3Q-.Dqun67] exeMicros[1279] rows[1] name[] predicates[t0.parent_id = ? ] bind[1] 
+txn[1012], 11:39:36.240, select t0.id c0, t0.blog_id c1, t0.user c2, t0.content c3, t0.create_time c4, t0.status c5  from comment t0  where t0.blog_id = ?  and t0.status = ?   order by t0.id desc  limit 11 
+txn[1012], 11:39:36.241, FindMany type[Comment] origin[BEPqfU.BJv7Cn.BIHiwI] exeMicros[910] rows[0] name[] predicates[t0.blog_id = ?  and t0.status = ? ] bind[21, normal] 
+txn[1014], 11:39:36.242, select count(*)  from comment t0  where t0.blog_id = ?  and t0.status = ?  
+txn[1014], 11:39:36.242, FindRowCount exeMicros[370] rows[0] type[com.blog.models.Comment] predicates[] bind[21, normal] 
+txn[1003], 12:11:23.874, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1003], 12:11:23.897, FindMany type[Category] origin[Bh1uSG.Ckp3Q-.Dqun67] exeMicros[23111] rows[1] name[] predicates[t0.parent_id = ? ] bind[0] 
+txn[1004], 12:11:23.907, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1004], 12:11:23.908, FindMany type[Category] origin[Bh1uSN.Ckp3Q-.Dqun67] exeMicros[565] rows[1] name[] predicates[t0.parent_id = ? ] bind[1] 
+txn[1002], 12:11:23.874, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.id desc  limit 11 
+txn[1002], 12:11:23.908, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[33668] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1001], 12:11:23.874, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.view_count desc  limit 11 
+txn[1001], 12:11:23.908, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[33738] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1005], 12:11:23.912, select count(*)  from blog t0  where t0.status = ?  
+txn[1005], 12:11:23.914, FindRowCount exeMicros[1332] rows[1] type[com.blog.models.Blog] predicates[t0.status = ? ] bind[normal] 
+txn[1008], 12:11:46.217, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1008], 12:11:46.220, FindMany type[Category] origin[Bh1uSG.Ckp3Q-.Dqun67] exeMicros[2993] rows[1] name[] predicates[t0.parent_id = ? ] bind[0] 
+txn[1009], 12:11:46.226, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1009], 12:11:46.226, FindMany type[Category] origin[Bh1uSN.Ckp3Q-.Dqun67] exeMicros[408] rows[1] name[] predicates[t0.parent_id = ? ] bind[1] 
+txn[1007], 12:11:46.218, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.view_count desc  limit 11 
+txn[1007], 12:11:46.228, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[10191] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1006], 12:11:46.230, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.id desc  limit 11 
+txn[1006], 12:11:46.231, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[1530] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1010], 12:11:46.234, select count(*)  from blog t0  where t0.status = ?  
+txn[1010], 12:11:46.235, FindRowCount exeMicros[915] rows[1] type[com.blog.models.Blog] predicates[] bind[normal] 
+txn[1011], 12:12:38.110, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1011], 12:12:38.114, FindMany type[Category] origin[Bh1uSG.Ckp3Q-.Dqun67] exeMicros[3972] rows[1] name[] predicates[t0.parent_id = ? ] bind[0] 
+txn[1012], 12:12:38.116, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1012], 12:12:38.117, FindMany type[Category] origin[Bh1uSN.Ckp3Q-.Dqun67] exeMicros[518] rows[1] name[] predicates[t0.parent_id = ? ] bind[1] 
+txn[1013], 12:12:38.118, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.view_count desc  limit 11 
+txn[1013], 12:12:38.119, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[808] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1014], 12:12:38.121, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.id desc  limit 11 
+txn[1014], 12:12:38.122, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[983] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1015], 12:12:38.123, select count(*)  from blog t0  where t0.status = ?  
+txn[1015], 12:12:38.124, FindRowCount exeMicros[961] rows[1] type[com.blog.models.Blog] predicates[] bind[normal] 
+txn[1016], 15:05:00.225, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1016], 15:05:00.302, FindMany type[Category] origin[Bh1uSG.Ckp3Q-.Dqun67] exeMicros[76574] rows[1] name[] predicates[t0.parent_id = ? ] bind[0] 
+txn[1018], 15:05:00.626, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1018], 15:05:00.627, FindMany type[Category] origin[Bh1uSN.Ckp3Q-.Dqun67] exeMicros[516] rows[1] name[] predicates[t0.parent_id = ? ] bind[1] 
+txn[1017], 15:05:00.628, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.view_count desc  limit 11 
+txn[1017], 15:05:00.629, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[901] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1019], 15:05:00.792, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.id desc  limit 11 
+txn[1019], 15:05:00.793, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[1298] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1020], 15:05:00.794, select count(*)  from blog t0  where t0.status = ?  
+txn[1020], 15:05:00.795, FindRowCount exeMicros[283] rows[1] type[com.blog.models.Blog] predicates[] bind[normal] 
+txn[1022], 15:05:55.413, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.id desc  limit 11 
+txn[1022], 15:05:55.415, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[1742] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1021], 15:05:55.416, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.view_count desc  limit 11 
+txn[1021], 15:05:55.417, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[1187] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1023], 15:05:55.418, select count(*)  from blog t0  where t0.status = ?  
+txn[1023], 15:05:55.430, FindRowCount exeMicros[853] rows[1] type[com.blog.models.Blog] predicates[] bind[normal] 
+txn[1024], 15:05:55.430, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1024], 15:05:55.445, FindMany type[Category] origin[Bh1uSG.Ckp3Q-.Dqun67] exeMicros[15368] rows[1] name[] predicates[t0.parent_id = ? ] bind[0] 
+txn[1025], 15:05:55.447, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1025], 15:05:55.449, FindMany type[Category] origin[Bh1uSN.Ckp3Q-.Dqun67] exeMicros[1682] rows[1] name[] predicates[t0.parent_id = ? ] bind[1] 
+txn[1027], 15:08:15.106, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1027], 15:08:15.108, FindMany type[Category] origin[Bh1uSG.Ckp3Q-.Dqun67] exeMicros[1608] rows[1] name[] predicates[t0.parent_id = ? ] bind[0] 
+txn[1029], 15:08:15.109, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1029], 15:08:15.109, FindMany type[Category] origin[Bh1uSN.Ckp3Q-.Dqun67] exeMicros[340] rows[1] name[] predicates[t0.parent_id = ? ] bind[1] 
+txn[1028], 15:08:15.109, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.id desc  limit 11 
+txn[1028], 15:08:15.110, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[771] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1026], 15:08:15.109, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.view_count desc  limit 11 
+txn[1026], 15:08:15.110, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[906] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1030], 15:08:15.111, select count(*)  from blog t0  where t0.status = ?  
+txn[1030], 15:08:15.111, FindRowCount exeMicros[231] rows[1] type[com.blog.models.Blog] predicates[] bind[normal] 
+txn[1031], 15:08:19.852, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1031], 15:08:19.853, FindMany type[Category] origin[Bh1uSG.Ckp3Q-.Dqun67] exeMicros[576] rows[1] name[] predicates[t0.parent_id = ? ] bind[0] 
+txn[1033], 15:08:19.854, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1033], 15:08:19.854, FindMany type[Category] origin[Bh1uSN.Ckp3Q-.Dqun67] exeMicros[397] rows[1] name[] predicates[t0.parent_id = ? ] bind[1] 
+txn[1034], 15:08:19.855, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.id desc  limit 11 
+txn[1034], 15:08:19.857, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[1601] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1035], 15:08:19.857, select count(*)  from blog t0  where t0.status = ?  
+txn[1035], 15:08:19.858, FindRowCount exeMicros[734] rows[1] type[com.blog.models.Blog] predicates[] bind[normal] 
+txn[1032], 15:08:19.855, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.view_count desc  limit 11 
+txn[1032], 15:08:19.863, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[7608] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1036], 15:09:33.971, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1036], 15:09:33.977, FindMany type[Category] origin[Bh1uSG.Ckp3Q-.Dqun67] exeMicros[5092] rows[1] name[] predicates[t0.parent_id = ? ] bind[0] 
+txn[1037], 15:09:33.977, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.view_count desc  limit 11 
+txn[1037], 15:09:33.978, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[652] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1038], 15:09:33.977, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1038], 15:09:33.978, FindMany type[Category] origin[Bh1uSN.Ckp3Q-.Dqun67] exeMicros[485] rows[1] name[] predicates[t0.parent_id = ? ] bind[1] 
+txn[1039], 15:09:33.979, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.id desc  limit 11 
+txn[1039], 15:09:33.980, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[691] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1040], 15:09:33.981, select count(*)  from blog t0  where t0.status = ?  
+txn[1040], 15:09:33.981, FindRowCount exeMicros[261] rows[1] type[com.blog.models.Blog] predicates[] bind[normal] 
+txn[1041], 15:09:44.369, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1041], 15:09:44.370, FindMany type[Category] origin[Bh1uSG.Ckp3Q-.Dqun67] exeMicros[595] rows[1] name[] predicates[t0.parent_id = ? ] bind[0] 
+txn[1042], 15:09:44.371, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1042], 15:09:44.371, FindMany type[Category] origin[Bh1uSN.Ckp3Q-.Dqun67] exeMicros[578] rows[1] name[] predicates[t0.parent_id = ? ] bind[1] 
+txn[1043], 15:09:44.380, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.view_count desc  limit 11 
+txn[1043], 15:09:44.381, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[617] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1044], 15:09:44.383, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.id desc  limit 11 
+txn[1044], 15:09:44.383, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[885] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1045], 15:09:44.384, select count(*)  from blog t0  where t0.status = ?  
+txn[1045], 15:09:44.385, FindRowCount exeMicros[820] rows[1] type[com.blog.models.Blog] predicates[] bind[normal] 
+txn[1046], 15:12:24.083, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1046], 15:12:24.084, FindMany type[Category] origin[Bh1uSG.Ckp3Q-.Dqun67] exeMicros[633] rows[1] name[] predicates[t0.parent_id = ? ] bind[0] 
+txn[1047], 15:12:24.084, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1047], 15:12:24.085, FindMany type[Category] origin[Bh1uSN.Ckp3Q-.Dqun67] exeMicros[366] rows[1] name[] predicates[t0.parent_id = ? ] bind[1] 
+txn[1049], 15:12:24.087, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.view_count desc  limit 11 
+txn[1049], 15:12:24.088, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[1465] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1048], 15:12:24.090, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.id desc  limit 11 
+txn[1048], 15:12:24.091, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[969] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1050], 15:12:24.093, select count(*)  from blog t0  where t0.status = ?  
+txn[1050], 15:12:24.093, FindRowCount exeMicros[282] rows[1] type[com.blog.models.Blog] predicates[] bind[normal] 
+txn[1051], 15:15:08.019, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1051], 15:15:08.022, FindMany type[Category] origin[Bh1uSG.Ckp3Q-.Dqun67] exeMicros[3122] rows[1] name[] predicates[t0.parent_id = ? ] bind[0] 
+txn[1052], 15:15:08.023, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1052], 15:15:08.027, FindMany type[Category] origin[Bh1uSN.Ckp3Q-.Dqun67] exeMicros[4023] rows[1] name[] predicates[t0.parent_id = ? ] bind[1] 
+txn[1053], 15:15:08.032, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.view_count desc  limit 11 
+txn[1053], 15:15:08.033, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[789] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1054], 15:15:08.042, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.id desc  limit 11 
+txn[1054], 15:15:08.043, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[1113] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1055], 15:15:08.046, select count(*)  from blog t0  where t0.status = ?  
+txn[1055], 15:15:08.046, FindRowCount exeMicros[445] rows[1] type[com.blog.models.Blog] predicates[] bind[normal] 
+txn[1056], 15:16:16.966, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.view_count desc  limit 11 
+txn[1056], 15:16:16.966, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[614] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1057], 15:16:16.965, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1057], 15:16:16.968, FindMany type[Category] origin[Bh1uSG.Ckp3Q-.Dqun67] exeMicros[2257] rows[1] name[] predicates[t0.parent_id = ? ] bind[0] 
+txn[1058], 15:16:16.967, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.id desc  limit 11 
+txn[1058], 15:16:16.969, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[1808] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1060], 15:16:16.971, select count(*)  from blog t0  where t0.status = ?  
+txn[1060], 15:16:16.971, FindRowCount exeMicros[250] rows[1] type[com.blog.models.Blog] predicates[] bind[normal] 
+txn[1059], 15:16:16.969, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1059], 15:16:16.970, FindMany type[Category] origin[Bh1uSN.Ckp3Q-.Dqun67] exeMicros[1540] rows[1] name[] predicates[t0.parent_id = ? ] bind[1] 
+txn[1061], 15:46:44.717, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1061], 15:46:44.717, FindMany type[Category] origin[Bh1uSG.Ckp3Q-.Dqun67] exeMicros[493] rows[1] name[] predicates[t0.parent_id = ? ] bind[0] 
+txn[1062], 15:46:44.718, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1062], 15:46:44.719, FindMany type[Category] origin[Bh1uSN.Ckp3Q-.Dqun67] exeMicros[592] rows[1] name[] predicates[t0.parent_id = ? ] bind[1] 
+txn[1063], 15:46:44.719, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.view_count desc  limit 11 
+txn[1063], 15:46:44.720, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[568] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1064], 15:46:44.727, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.id desc  limit 11 
+txn[1064], 15:46:44.728, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[1031] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1065], 15:46:44.729, select count(*)  from blog t0  where t0.status = ?  
+txn[1065], 15:46:44.730, FindRowCount exeMicros[998] rows[1] type[com.blog.models.Blog] predicates[] bind[normal] 
+txn[1066], 18:17:40.569, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.view_count desc  limit 11 
+txn[1066], 18:17:40.570, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[728] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1067], 18:17:40.572, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.id desc  limit 11 
+txn[1067], 18:17:40.572, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[658] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1068], 18:17:40.571, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1068], 18:17:40.572, FindMany type[Category] origin[Bh1uSG.Ckp3Q-.Dqun67] exeMicros[728] rows[1] name[] predicates[t0.parent_id = ? ] bind[0] 
+txn[1070], 18:17:40.573, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1070], 18:17:40.573, FindMany type[Category] origin[Bh1uSN.Ckp3Q-.Dqun67] exeMicros[283] rows[1] name[] predicates[t0.parent_id = ? ] bind[1] 
+txn[1069], 18:17:40.573, select count(*)  from blog t0  where t0.status = ?  
+txn[1069], 18:17:40.573, FindRowCount exeMicros[275] rows[1] type[com.blog.models.Blog] predicates[] bind[normal] 
+txn[1071], 18:17:43.356, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1071], 18:17:43.357, FindMany type[Category] origin[Bh1uSG.Ckp3Q-.Dqun67] exeMicros[375] rows[1] name[] predicates[t0.parent_id = ? ] bind[0] 
+txn[1072], 18:17:43.357, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.view_count desc  limit 11 
+txn[1072], 18:17:43.358, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[677] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1073], 18:17:43.359, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1073], 18:17:43.362, FindMany type[Category] origin[Bh1uSN.Ckp3Q-.Dqun67] exeMicros[3128] rows[1] name[] predicates[t0.parent_id = ? ] bind[1] 
+txn[1074], 18:17:43.400, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1074], 18:17:43.400, FindMany type[Category] origin[BbdpKK.Ckp3Q-.DIpiGi] exeMicros[553] rows[1] name[] predicates[t0.parent_id = ? ] bind[0] 
+txn[1075], 18:17:43.506, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1075], 18:17:44.491, FindMany type[Category] origin[BbwUUR.Ckp3Q-.DueBE9] exeMicros[985475] rows[1] name[] predicates[t0.parent_id = ? ] bind[1] 
+txn[1076], 18:18:13.193, select t0.id c0, t0.email c1, t0.status c2, t0.create_time c3  from user_mail t0  where t0.email = ?  
+txn[1076], 18:18:13.461, FindMany type[UserMail] origin[BbzKZ.BaiQ2a.DXaAJc] exeMicros[268322] rows[1] name[] predicates[t0.email = ? ] bind[1056847534@qq.com] 
+txn[1077], 18:18:13.920, insert into blog (user, email, blog_title, blog_content, category_1, category_1_name, category_2, category_2_name, create_time, status, view_count) values (?,?,?,?,?,?,?,?,?,?,?) 
+txn[1077], 18:18:13.967, Binding Insert [blog]  set[user=ad, email=1056847534@qq.com, blog_title=clojure创建web工程并操作数据库(crud), blog_content=<h2 style="background-color: inherit; color: rg..., category_1=1, category_1_name=test, category_2=2, category_2_name=aaa, create_time=Tue May 13 18:18:13 CST 2014, status=normal, view_count=0, ] 
+txn[1077], 18:18:14.056, ERROR executing DML bindLog[Binding Insert [blog]  set[user=ad, email=1056847534@qq.com, blog_title=clojure创建web工程并操作数据库(crud), blog_content=<h2 style="background-color: inherit; color: rg..., category_1=1, category_1_name=test, category_2=2, category_2_name=aaa, create_time=Tue May 13 18:18:13 CST 2014, status=normal, view_count=0, ]] error[Data truncation: Data too long for column 'blog_content' at row 1] 
+txn[1078], 18:18:14.231, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.id = ?  and t0.status = ?  
+txn[1078], 18:18:14.258, FindMany type[Blog] origin[BOrMM.CYzEua.CJRbHA] exeMicros[27237] rows[0] name[] predicates[t0.id = ?  and t0.status = ? ] bind[0, normal] 
+txn[1079], 18:18:14.259, select count(*)  from comment t0  where t0.blog_id = ?  and t0.status = ?  
+txn[1079], 18:18:14.303, FindRowCount exeMicros[44308] rows[0] type[com.blog.models.Comment] predicates[t0.blog_id = ?  and t0.status = ? ] bind[0, normal] 
+txn[1080], 18:18:14.566, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1080], 18:18:14.566, FindMany type[Category] origin[Bh1uSG.Ckp3Q-.Dqun67] exeMicros[380] rows[1] name[] predicates[t0.parent_id = ? ] bind[0] 
+txn[1081], 18:18:14.567, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1081], 18:18:14.568, FindMany type[Category] origin[Bh1uSN.Ckp3Q-.Dqun67] exeMicros[876] rows[1] name[] predicates[t0.parent_id = ? ] bind[1] 
+txn[1082], 18:18:14.604, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.view_count desc  limit 11 
+txn[1082], 18:18:14.604, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[648] rows[1] name[] predicates[t0.status = ? ] bind[normal] 
+txn[1083], 18:18:14.605, select t0.id c0, t0.blog_id c1, t0.user c2, t0.content c3, t0.create_time c4, t0.status c5  from comment t0  where t0.blog_id = ?  and t0.status = ?   order by t0.id desc  limit 11 
+txn[1083], 18:18:14.606, FindMany type[Comment] origin[BEPqfU.BJv7Cn.BIHiwI] exeMicros[677] rows[0] name[] predicates[t0.blog_id = ?  and t0.status = ? ] bind[0, normal] 
+txn[1084], 18:18:14.607, select count(*)  from comment t0  where t0.blog_id = ?  and t0.status = ?  
+txn[1084], 18:18:14.609, FindRowCount exeMicros[1832] rows[0] type[com.blog.models.Comment] predicates[] bind[0, normal] 
+txn[1085], 18:19:47.015, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1085], 18:19:47.015, FindMany type[Category] origin[Bh1uSG.Ckp3Q-.DTjs3r] exeMicros[406] rows[1] name[] predicates[t0.parent_id = ? ] bind[0] 
+txn[1086], 18:19:47.016, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1086], 18:19:47.018, FindMany type[Category] origin[Bh1uSN.Ckp3Q-.DTjs3r] exeMicros[2283] rows[1] name[] predicates[t0.parent_id = ? ] bind[1] 
+txn[1087], 18:19:50.585, select t0.id c0, t0.email c1, t0.status c2, t0.create_time c3  from user_mail t0  where t0.email = ?  
+txn[1087], 18:19:50.586, FindMany type[UserMail] origin[BbzKZ.BaiQ2a.DXaAJc] exeMicros[1013] rows[1] name[] predicates[t0.email = ? ] bind[1056847534@qq.com] 
+txn[1088], 18:19:50.777, insert into blog (user, email, blog_title, blog_content, category_1, category_1_name, category_2, category_2_name, create_time, status, view_count) values (?,?,?,?,?,?,?,?,?,?,?) 
+txn[1088], 18:19:50.780, Binding Insert [blog]  set[user=ad, email=1056847534@qq.com, blog_title=clojure创建web工程并操作数据库(crud), blog_content=<h2 style="background-color: inherit; color: rg..., category_1=1, category_1_name=test, category_2=2, category_2_name=aaa, create_time=Tue May 13 18:19:50 CST 2014, status=normal, view_count=0, ] 
+txn[1088], 18:19:50.893, Inserted [Blog] [22] 
+txn[1089], 18:19:53.859, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.id = ?  and t0.status = ?  
+txn[1089], 18:19:53.862, FindMany type[Blog] origin[BOrMM.CYzEua.CJRbHA] exeMicros[2678] rows[1] name[] predicates[t0.id = ?  and t0.status = ? ] bind[22, normal] 
+txn[1090], 18:19:53.862, select count(*)  from comment t0  where t0.blog_id = ?  and t0.status = ?  
+txn[1090], 18:19:53.876, FindRowCount exeMicros[14116] rows[0] type[com.blog.models.Comment] predicates[] bind[22, normal] 
+txn[1091], 18:19:54.114, select t0.id c0, t0.blog_id c1, t0.user c2, t0.content c3, t0.create_time c4, t0.status c5  from comment t0  where t0.blog_id = ?  and t0.status = ?   order by t0.id desc  limit 11 
+txn[1091], 18:19:54.114, FindMany type[Comment] origin[BEPqfU.BJv7Cn.BIHiwI] exeMicros[489] rows[0] name[] predicates[t0.blog_id = ?  and t0.status = ? ] bind[22, normal] 
+txn[1093], 18:19:54.114, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1093], 18:19:54.114, FindMany type[Category] origin[Bh1uSG.Ckp3Q-.DTjs3r] exeMicros[552] rows[1] name[] predicates[t0.parent_id = ? ] bind[0] 
+txn[1094], 18:19:54.117, select count(*)  from comment t0  where t0.blog_id = ?  and t0.status = ?  
+txn[1094], 18:19:54.117, FindRowCount exeMicros[431] rows[0] type[com.blog.models.Comment] predicates[] bind[22, normal] 
+txn[1095], 18:19:54.119, select t0.id c0, t0.name c1, t0.parent_id c2  from categoty t0  where t0.parent_id = ?  
+txn[1095], 18:19:54.119, FindMany type[Category] origin[Bh1uSN.Ckp3Q-.DTjs3r] exeMicros[460] rows[1] name[] predicates[t0.parent_id = ? ] bind[1] 
+txn[1092], 18:19:54.118, select t0.id c0, t0.user c1, t0.email c2, t0.blog_title c3, t0.blog_content c4, t0.category_1 c5, t0.category_1_name c6, t0.category_2 c7, t0.category_2_name c8, t0.create_time c9, t0.status c10, t0.view_count c11  from blog t0  where t0.status = ?   order by t0.view_count desc  limit 11 
+txn[1092], 18:19:54.120, FindMany type[Blog] origin[BEPqfU.CYzEua.BIHiwI] exeMicros[2012] rows[2] name[] predicates[t0.status = ? ] bind[normal] 

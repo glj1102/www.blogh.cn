@@ -1,0 +1,15 @@
+<script type="text/javascript" src="/javascripts/aplications.js"></script>
+    <%data.list.forEach(function(one,i){%>
+    <li class="with_sub_menu">
+        <a href="/?categoryoneid=<%=one.id%>"><%=one.name%><span></span></a>
+        <div class="sub_menu">
+            <div class="list">
+                <ul>
+                    <%one.list.forEach(function(two,j){%>
+                    <li><a href="/?categorytwoid=<%=two.id%>"><%=two.name%></a></li>
+                    <%})%>
+                </ul>
+            </div>
+        </div>
+    </li>
+    <%})%>

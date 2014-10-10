@@ -1,0 +1,631 @@
+txn[1001], 14:21:26.126, select t0.id c0, t0.name c1  from categoty t0 
+txn[1001], 14:21:26.351, FindMany type[Category] origin[BvL8MX.CYlt6R.OTLuF] exeMicros[224923] rows[2] name[] predicates[] bind[] 
+txn[1002], 14:21:28.422, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 
+txn[1002], 14:21:28.448, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[25773] rows[20] name[] predicates[] bind[] 
+txn[1003], 14:21:28.450, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1003], 14:21:28.453, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[3223] rows[20] name[] predicates[] bind[] 
+txn[1005], 14:21:28.461, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1005], 14:21:28.464, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[3017] rows[20] name[] predicates[] bind[] 
+txn[1006], 14:21:28.465, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1006], 14:21:28.469, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[3076] rows[20] name[] predicates[] bind[] 
+txn[1004], 14:21:28.464, select count(*)  from product t0 
+txn[1004], 14:21:28.499, FindRowCount exeMicros[35162] rows[80] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1007], 14:21:28.728, select t0.id c0, t0.name c1  from categoty t0 
+txn[1007], 14:21:28.728, FindMany type[Category] origin[BvL8MX.CYlt6R.OTLuF] exeMicros[498] rows[2] name[] predicates[] bind[] 
+txn[1008], 14:23:39.673, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 
+txn[1008], 14:23:39.676, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2216] rows[20] name[] predicates[] bind[] 
+txn[1010], 14:23:39.677, select count(*)  from product t0 
+txn[1010], 14:23:39.677, FindRowCount exeMicros[404] rows[80] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1009], 14:23:39.677, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1009], 14:23:39.680, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[3020] rows[20] name[] predicates[] bind[] 
+txn[1011], 14:23:39.680, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1011], 14:23:39.684, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[3031] rows[20] name[] predicates[] bind[] 
+txn[1012], 14:23:39.685, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1012], 14:23:39.694, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[9107] rows[20] name[] predicates[] bind[] 
+txn[1013], 14:23:39.784, select t0.id c0, t0.name c1  from categoty t0 
+txn[1013], 14:23:39.785, FindMany type[Category] origin[BvL8MX.CYlt6R.OTLuF] exeMicros[465] rows[2] name[] predicates[] bind[] 
+txn[1014], 14:23:59.781, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 
+txn[1014], 14:23:59.782, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1841] rows[20] name[] predicates[] bind[] 
+txn[1016], 14:23:59.783, select count(*)  from product t0 
+txn[1016], 14:23:59.783, FindRowCount exeMicros[293] rows[80] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1015], 14:23:59.783, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1015], 14:23:59.785, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1963] rows[20] name[] predicates[] bind[] 
+txn[1017], 14:23:59.786, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1017], 14:23:59.788, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2141] rows[20] name[] predicates[] bind[] 
+txn[1018], 14:23:59.790, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1018], 14:23:59.793, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2386] rows[20] name[] predicates[] bind[] 
+txn[1019], 14:23:59.952, select t0.id c0, t0.name c1  from categoty t0 
+txn[1019], 14:23:59.954, FindMany type[Category] origin[BvL8MX.CYlt6R.OTLuF] exeMicros[1822] rows[2] name[] predicates[] bind[] 
+txn[1001], 14:26:21.364, select t0.id c0, t0.name c1  from categoty t0 where t0.id = ?   
+txn[1001], 14:26:21.442, FindBean type[Category] origin[dnUqx.CYlt6Q.z2QpY] exeMicros[77235] rows[1] bind[1] 
+txn[1002], 14:26:21.450, insert into product (name, url, image_url, price, view_count, category_id, category_name) values (?,?,?,?,?,?,?) 
+txn[1002], 14:26:21.450, Binding Insert [product]  set[name=null, url=null, image_url=http://gtms01.alicdn.com/tps/i1/T10pw_FfXaXXbTM..., price=null, view_count=0, category_id=1, category_name=时尚女装, ] 
+txn[1002], 14:26:21.531, Inserted [Product] [81] 
+txn[1003], 14:26:21.602, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 
+txn[1003], 14:26:21.605, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[3424] rows[20] name[] predicates[] bind[] 
+txn[1004], 14:26:21.609, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1004], 14:26:21.613, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[4064] rows[20] name[] predicates[] bind[] 
+txn[1006], 14:26:21.621, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1006], 14:26:21.624, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2832] rows[20] name[] predicates[] bind[] 
+txn[1005], 14:26:21.624, select count(*)  from product t0 
+txn[1005], 14:26:21.625, FindRowCount exeMicros[1121] rows[81] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1007], 14:26:21.625, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1007], 14:26:21.628, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2780] rows[20] name[] predicates[] bind[] 
+txn[1008], 14:26:21.629, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 80 
+txn[1008], 14:26:21.630, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1147] rows[1] name[] predicates[] bind[] 
+txn[1009], 14:26:21.764, select t0.id c0, t0.name c1  from categoty t0 
+txn[1009], 14:26:21.765, FindMany type[Category] origin[BvL8MX.CYlt6R.OTLuF] exeMicros[908] rows[2] name[] predicates[] bind[] 
+txn[1010], 14:27:19.672, select t0.id c0, t0.name c1  from categoty t0 where t0.id = ?   
+txn[1010], 14:27:19.674, FindBean type[Category] origin[dnUqx.CYlt6Q.z2QpY] exeMicros[1668] rows[1] bind[2] 
+txn[1011], 14:27:19.675, insert into product (name, url, image_url, price, view_count, category_id, category_name) values (?,?,?,?,?,?,?) 
+txn[1011], 14:27:19.675, Binding Insert [product]  set[name=null, url=null, image_url=http://gtms01.alicdn.com/tps/i1/T10pw_FfXaXXbTM..., price=null, view_count=0, category_id=2, category_name=时尚女鞋, ] 
+txn[1011], 14:27:19.679, Inserted [Product] [82] 
+txn[1012], 14:27:19.768, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 
+txn[1012], 14:27:19.772, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[4455] rows[20] name[] predicates[] bind[] 
+txn[1014], 14:27:19.774, select count(*)  from product t0 
+txn[1014], 14:27:19.775, FindRowCount exeMicros[958] rows[82] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1013], 14:27:19.773, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1013], 14:27:19.777, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[3996] rows[20] name[] predicates[] bind[] 
+txn[1015], 14:27:19.778, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1015], 14:27:19.782, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[3638] rows[20] name[] predicates[] bind[] 
+txn[1016], 14:27:19.782, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1016], 14:27:19.785, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2932] rows[20] name[] predicates[] bind[] 
+txn[1017], 14:27:19.786, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 80 
+txn[1017], 14:27:19.788, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1274] rows[2] name[] predicates[] bind[] 
+txn[1018], 14:27:19.868, select t0.id c0, t0.name c1  from categoty t0 
+txn[1018], 14:27:19.869, FindMany type[Category] origin[BvL8MX.CYlt6R.OTLuF] exeMicros[949] rows[2] name[] predicates[] bind[] 
+txn[1019], 14:27:45.463, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 
+txn[1019], 14:27:45.465, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1674] rows[20] name[] predicates[] bind[] 
+txn[1021], 14:27:45.466, select count(*)  from product t0 
+txn[1021], 14:27:45.466, FindRowCount exeMicros[568] rows[82] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1020], 14:27:45.466, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1020], 14:27:45.468, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2145] rows[20] name[] predicates[] bind[] 
+txn[1022], 14:27:45.469, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1022], 14:27:45.472, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2473] rows[20] name[] predicates[] bind[] 
+txn[1023], 14:27:45.472, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1023], 14:27:45.475, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2451] rows[20] name[] predicates[] bind[] 
+txn[1024], 14:27:45.476, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 80 
+txn[1024], 14:27:45.477, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1309] rows[2] name[] predicates[] bind[] 
+txn[1025], 14:27:45.586, select t0.id c0, t0.name c1  from categoty t0 
+txn[1025], 14:27:45.588, FindMany type[Category] origin[BvL8MX.CYlt6R.OTLuF] exeMicros[1809] rows[2] name[] predicates[] bind[] 
+txn[1026], 14:27:53.502, select t0.id c0, t0.name c1  from categoty t0 where t0.id = ?   
+txn[1026], 14:27:53.503, FindBean type[Category] origin[dnUqx.CYlt6Q.z2QpY] exeMicros[344] rows[1] bind[1] 
+txn[1027], 14:27:53.503, insert into product (name, url, image_url, price, view_count, category_id, category_name) values (?,?,?,?,?,?,?) 
+txn[1027], 14:27:53.503, Binding Insert [product]  set[name=null, url=null, image_url=http://gtms01.alicdn.com/tps/i1/T10pw_FfXaXXbTM..., price=null, view_count=0, category_id=1, category_name=时尚女装, ] 
+txn[1027], 14:27:53.503, Inserted [Product] [83] 
+txn[1028], 14:27:53.588, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 
+txn[1028], 14:27:53.591, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[3430] rows[20] name[] predicates[] bind[] 
+txn[1029], 14:27:53.593, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1029], 14:27:53.595, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1913] rows[20] name[] predicates[] bind[] 
+txn[1030], 14:27:53.598, select count(*)  from product t0 
+txn[1030], 14:27:53.598, FindRowCount exeMicros[265] rows[83] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1031], 14:27:53.597, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1031], 14:27:53.599, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2263] rows[20] name[] predicates[] bind[] 
+txn[1032], 14:27:53.601, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1032], 14:27:53.603, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2122] rows[20] name[] predicates[] bind[] 
+txn[1033], 14:27:53.604, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 80 
+txn[1033], 14:27:53.606, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2075] rows[3] name[] predicates[] bind[] 
+txn[1034], 14:27:53.685, select t0.id c0, t0.name c1  from categoty t0 
+txn[1034], 14:27:53.685, FindMany type[Category] origin[BvL8MX.CYlt6R.OTLuF] exeMicros[483] rows[2] name[] predicates[] bind[] 
+txn[1035], 14:28:16.755, select t0.id c0, t0.name c1  from categoty t0 where t0.id = ?   
+txn[1035], 14:28:16.755, FindBean type[Category] origin[dnUqx.CYlt6Q.z2QpY] exeMicros[559] rows[1] bind[2] 
+txn[1036], 14:28:16.756, insert into product (name, url, image_url, price, view_count, category_id, category_name) values (?,?,?,?,?,?,?) 
+txn[1036], 14:28:16.756, Binding Insert [product]  set[name=null, url=null, image_url=http://gtms01.alicdn.com/tps/i1/T10pw_FfXaXXbTM..., price=null, view_count=0, category_id=2, category_name=时尚女鞋, ] 
+txn[1036], 14:28:16.757, Inserted [Product] [84] 
+txn[1037], 14:28:16.877, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 
+txn[1037], 14:28:16.878, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1163] rows[20] name[] predicates[] bind[] 
+txn[1038], 14:28:16.879, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1038], 14:28:16.880, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1275] rows[20] name[] predicates[] bind[] 
+txn[1039], 14:28:16.880, select count(*)  from product t0 
+txn[1039], 14:28:16.881, FindRowCount exeMicros[383] rows[84] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1040], 14:28:16.880, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1040], 14:28:16.881, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1063] rows[20] name[] predicates[] bind[] 
+txn[1041], 14:28:16.890, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1041], 14:28:16.895, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1940] rows[20] name[] predicates[] bind[] 
+txn[1042], 14:28:16.899, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 80 
+txn[1042], 14:28:16.900, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[932] rows[4] name[] predicates[] bind[] 
+txn[1043], 14:28:16.962, select t0.id c0, t0.name c1  from categoty t0 
+txn[1043], 14:28:16.962, FindMany type[Category] origin[BvL8MX.CYlt6R.OTLuF] exeMicros[437] rows[2] name[] predicates[] bind[] 
+txn[1044], 14:34:27.111, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 
+txn[1044], 14:34:27.113, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1419] rows[20] name[] predicates[] bind[] 
+txn[1046], 14:34:27.114, select count(*)  from product t0 
+txn[1046], 14:34:27.114, FindRowCount exeMicros[359] rows[84] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1045], 14:34:27.114, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1045], 14:34:27.115, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1607] rows[20] name[] predicates[] bind[] 
+txn[1047], 14:34:27.116, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1047], 14:34:27.118, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1590] rows[20] name[] predicates[] bind[] 
+txn[1048], 14:34:27.119, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1048], 14:34:27.123, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[4499] rows[20] name[] predicates[] bind[] 
+txn[1049], 14:34:27.124, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 80 
+txn[1049], 14:34:27.126, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1190] rows[4] name[] predicates[] bind[] 
+txn[1050], 14:34:27.227, select t0.id c0, t0.name c1  from categoty t0 
+txn[1050], 14:34:27.229, FindMany type[Category] origin[BvL8MX.CYlt6R.OTLuF] exeMicros[1411] rows[2] name[] predicates[] bind[] 
+txn[1051], 14:34:34.358, select t0.id c0, t0.name c1  from categoty t0 where t0.id = ?   
+txn[1051], 14:34:34.358, FindBean type[Category] origin[dnUqx.CYlt6Q.z2QpY] exeMicros[511] rows[1] bind[2] 
+txn[1052], 14:34:34.359, insert into product (name, url, image_url, price, view_count, category_id, category_name) values (?,?,?,?,?,?,?) 
+txn[1052], 14:34:34.359, Binding Insert [product]  set[name=哈哈哈, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DcTa9D..., image_url=http://gtms01.alicdn.com/tps/i1/T10pw_FfXaXXbTM..., price=34, view_count=0, category_id=2, category_name=时尚女鞋, ] 
+txn[1052], 14:34:34.360, Inserted [Product] [85] 
+txn[1053], 14:34:34.459, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 
+txn[1053], 14:34:34.460, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1326] rows[20] name[] predicates[] bind[] 
+txn[1055], 14:34:34.461, select count(*)  from product t0 
+txn[1055], 14:34:34.462, FindRowCount exeMicros[513] rows[85] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1054], 14:34:34.461, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1054], 14:34:34.464, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2684] rows[20] name[] predicates[] bind[] 
+txn[1056], 14:34:34.468, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1056], 14:34:34.471, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2793] rows[20] name[] predicates[] bind[] 
+txn[1057], 14:34:34.472, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1057], 14:34:34.474, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2050] rows[20] name[] predicates[] bind[] 
+txn[1058], 14:34:34.475, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 80 
+txn[1058], 14:34:34.477, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1679] rows[5] name[] predicates[] bind[] 
+txn[1059], 14:34:34.536, select t0.id c0, t0.name c1  from categoty t0 
+txn[1059], 14:34:34.537, FindMany type[Category] origin[BvL8MX.CYlt6R.OTLuF] exeMicros[375] rows[2] name[] predicates[] bind[] 
+txn[1060], 15:05:46.645, -- Deleting Product Ids[84, 83, 82, 81] 
+txn[1060], 15:05:46.649, delete from product where id  in (?,?,?,?)  
+txn[1060], 15:05:46.701, DeleteSql table[product] rows[4] bind[84, 83, 82, 81, ] 
+txn[1061], 15:05:46.774, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 
+txn[1061], 15:05:46.782, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[7653] rows[20] name[] predicates[] bind[] 
+txn[1063], 15:05:46.786, select count(*)  from product t0 
+txn[1063], 15:05:46.787, FindRowCount exeMicros[994] rows[81] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1062], 15:05:46.785, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1062], 15:05:46.788, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[3379] rows[20] name[] predicates[] bind[] 
+txn[1064], 15:05:46.789, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1064], 15:05:46.792, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2637] rows[20] name[] predicates[] bind[] 
+txn[1065], 15:05:46.793, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1065], 15:05:46.796, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[3182] rows[20] name[] predicates[] bind[] 
+txn[1066], 15:05:46.798, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 80 
+txn[1066], 15:05:46.799, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1048] rows[1] name[] predicates[] bind[] 
+txn[1067], 15:05:46.908, select t0.id c0, t0.name c1  from categoty t0 
+txn[1067], 15:05:46.909, FindMany type[Category] origin[BvL8MX.CYlt6R.OTLuF] exeMicros[396] rows[2] name[] predicates[] bind[] 
+txn[1068], 15:05:49.339, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  where t0.category_id = ?   order by t0.id desc  limit 21 
+txn[1068], 15:05:49.343, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[3349] rows[20] name[] predicates[t0.category_id = ? ] bind[1] 
+txn[1070], 15:05:49.344, select count(*)  from product t0  where t0.category_id = ?  
+txn[1070], 15:05:49.345, FindRowCount exeMicros[1029] rows[40] type[com.goodbuy.models.Product] predicates[t0.category_id = ? ] bind[1] 
+txn[1069], 15:05:49.344, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  where t0.category_id = ?   order by t0.id desc  limit 21 offset 20 
+txn[1069], 15:05:49.347, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2577] rows[20] name[] predicates[t0.category_id = ? ] bind[1] 
+txn[1071], 15:05:49.426, select t0.id c0, t0.name c1  from categoty t0 
+txn[1071], 15:05:49.426, FindMany type[Category] origin[BvL8MX.CYlt6R.OTLuF] exeMicros[353] rows[2] name[] predicates[] bind[] 
+txn[1072], 15:05:51.927, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  where t0.category_id = ?   order by t0.id desc  limit 21 
+txn[1072], 15:05:51.930, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2257] rows[20] name[] predicates[t0.category_id = ? ] bind[2] 
+txn[1074], 15:05:51.932, select count(*)  from product t0  where t0.category_id = ?  
+txn[1074], 15:05:51.933, FindRowCount exeMicros[1447] rows[41] type[com.goodbuy.models.Product] predicates[] bind[2] 
+txn[1073], 15:05:51.931, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  where t0.category_id = ?   order by t0.id desc  limit 21 offset 20 
+txn[1073], 15:05:51.938, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[6473] rows[20] name[] predicates[t0.category_id = ? ] bind[2] 
+txn[1075], 15:05:51.939, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  where t0.category_id = ?   order by t0.id desc  limit 21 offset 40 
+txn[1075], 15:05:51.942, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2799] rows[1] name[] predicates[t0.category_id = ? ] bind[2] 
+txn[1076], 15:05:52.011, select t0.id c0, t0.name c1  from categoty t0 
+txn[1076], 15:05:52.011, FindMany type[Category] origin[BvL8MX.CYlt6R.OTLuF] exeMicros[650] rows[2] name[] predicates[] bind[] 
+txn[1077], 15:05:57.613, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 21 
+txn[1077], 15:05:57.706, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[93062] rows[20] name[] predicates[] bind[] 
+txn[1079], 15:05:57.707, select count(*)  from product_9 t0 
+txn[1079], 15:05:57.708, FindRowCount exeMicros[565] rows[40] type[com.goodbuy.models.Product9] predicates[] bind[] 
+txn[1078], 15:05:57.707, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 21 offset 20 
+txn[1078], 15:05:57.712, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[4934] rows[20] name[] predicates[] bind[] 
+txn[1080], 15:13:17.651, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 21 
+txn[1080], 15:13:17.652, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[859] rows[20] name[] predicates[] bind[] 
+txn[1082], 15:13:17.652, select count(*)  from product_9 t0 
+txn[1082], 15:13:17.653, FindRowCount exeMicros[202] rows[40] type[com.goodbuy.models.Product9] predicates[] bind[] 
+txn[1081], 15:13:17.652, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 21 offset 20 
+txn[1081], 15:13:17.653, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[1009] rows[20] name[] predicates[] bind[] 
+txn[1083], 15:13:23.957, insert into product_9 (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1083], 15:13:23.957, Binding Insert [product_9]  set[name=哈哈哈, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DcTa9D..., image_url=http://gtms01.alicdn.com/tps/i1/T10pw_FfXaXXbTM..., price=34, view_count=0, ] 
+txn[1083], 15:13:23.958, Inserted [Product9] [41] 
+txn[1084], 15:13:24.072, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 
+txn[1084], 15:13:24.073, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[787] rows[20] name[] predicates[] bind[] 
+txn[1086], 15:13:24.074, select count(*)  from product t0 
+txn[1086], 15:13:24.074, FindRowCount exeMicros[167] rows[81] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1085], 15:13:24.074, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1085], 15:13:24.075, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[875] rows[20] name[] predicates[] bind[] 
+txn[1087], 15:13:24.075, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1087], 15:13:24.076, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[634] rows[20] name[] predicates[] bind[] 
+txn[1088], 15:13:24.076, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1088], 15:13:24.077, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[923] rows[20] name[] predicates[] bind[] 
+txn[1089], 15:13:24.077, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 80 
+txn[1089], 15:13:24.078, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[254] rows[1] name[] predicates[] bind[] 
+txn[1090], 15:13:24.186, select t0.id c0, t0.name c1  from categoty t0 
+txn[1090], 15:13:24.188, FindMany type[Category] origin[BvL8MX.CYlt6R.OTLuF] exeMicros[2463] rows[2] name[] predicates[] bind[] 
+txn[1091], 15:14:36.796, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 21 
+txn[1091], 15:14:36.797, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[915] rows[20] name[] predicates[] bind[] 
+txn[1092], 15:14:36.797, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 21 offset 20 
+txn[1092], 15:14:36.799, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[1559] rows[20] name[] predicates[] bind[] 
+txn[1093], 15:14:36.800, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 21 offset 40 
+txn[1093], 15:14:36.800, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[709] rows[1] name[] predicates[] bind[] 
+txn[1094], 15:14:36.801, select count(*)  from product_9 t0 
+txn[1094], 15:14:36.802, FindRowCount exeMicros[575] rows[41] type[com.goodbuy.models.Product9] predicates[] bind[] 
+txn[1095], 15:14:57.735, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 21 
+txn[1095], 15:14:57.736, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[748] rows[20] name[] predicates[] bind[] 
+txn[1097], 15:14:57.736, select count(*)  from product_9 t0 
+txn[1097], 15:14:57.736, FindRowCount exeMicros[293] rows[41] type[com.goodbuy.models.Product9] predicates[] bind[] 
+txn[1096], 15:14:57.736, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 21 offset 20 
+txn[1096], 15:14:57.737, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[763] rows[20] name[] predicates[] bind[] 
+txn[1098], 15:14:57.737, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 21 offset 40 
+txn[1098], 15:14:57.737, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[309] rows[1] name[] predicates[] bind[] 
+txn[1099], 15:15:03.822, insert into product_9 (name, url, image_url, price, view_count) values (?,?,?,?,?) 
+txn[1099], 15:15:03.822, Binding Insert [product_9]  set[name=哈哈哈, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DcTa9D..., image_url=http://gtms01.alicdn.com/tps/i1/T10pw_FfXaXXbTM..., price=34, view_count=0, ] 
+txn[1099], 15:15:03.931, Inserted [Product9] [42] 
+txn[1100], 15:15:04.013, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 21 
+txn[1100], 15:15:04.014, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[1904] rows[20] name[] predicates[] bind[] 
+txn[1102], 15:15:04.016, select count(*)  from product_9 t0 
+txn[1102], 15:15:04.021, FindRowCount exeMicros[5355] rows[42] type[com.goodbuy.models.Product9] predicates[] bind[] 
+txn[1101], 15:15:04.015, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 21 offset 20 
+txn[1101], 15:15:04.026, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[10266] rows[20] name[] predicates[] bind[] 
+txn[1103], 15:15:04.026, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 21 offset 40 
+txn[1103], 15:15:04.027, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[1020] rows[2] name[] predicates[] bind[] 
+txn[1104], 15:16:23.293, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.view_count c4  from store t0  order by t0.id desc  limit 21 
+txn[1104], 15:16:23.325, FindMany type[Store] origin[BEPqfU.BfEmoy.BIHiwI] exeMicros[32704] rows[3] name[] predicates[] bind[] 
+txn[1105], 15:16:23.326, select count(*)  from store t0 
+txn[1105], 15:16:23.328, FindRowCount exeMicros[1488] rows[3] type[com.goodbuy.models.Store] predicates[] bind[] 
+txn[1106], 15:16:27.449, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3  from market t0  order by t0.id desc 
+txn[1106], 15:16:27.483, FindMany type[Market] origin[Z4-7p.lkIqT.C9NJVR] exeMicros[33481] rows[2] name[] predicates[] bind[] 
+txn[1107], 15:16:28.616, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3  from channel t0  order by t0.id desc 
+txn[1107], 15:16:28.640, FindMany type[Channel] origin[Dammsu.DTLHXQ.ChLaMx] exeMicros[23669] rows[2] name[] predicates[] bind[] 
+txn[1108], 15:16:29.925, select t0.id c0, t0.ip c1  from client_ip t0  order by t0.id desc  limit 21 
+txn[1108], 15:16:29.971, FindMany type[ClientIp] origin[BEPqfU.DJw4-9.BIHiwI] exeMicros[46069] rows[1] name[] predicates[] bind[] 
+txn[1109], 15:16:29.972, select count(*)  from client_ip t0 
+txn[1109], 15:16:29.973, FindRowCount exeMicros[386] rows[1] type[com.goodbuy.models.ClientIp] predicates[] bind[] 
+txn[1110], 15:16:29.973, select count(*)  from client_ip t0 
+txn[1110], 15:16:29.973, FindRowCount exeMicros[215] rows[1] type[com.goodbuy.models.ClientIp] predicates[] bind[] 
+txn[1111], 15:16:32.741, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3  from channel t0  order by t0.id desc 
+txn[1111], 15:16:32.741, FindMany type[Channel] origin[Dammsu.DTLHXQ.ChLaMx] exeMicros[427] rows[2] name[] predicates[] bind[] 
+txn[1112], 15:16:33.392, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3  from market t0  order by t0.id desc 
+txn[1112], 15:16:33.398, FindMany type[Market] origin[Z4-7p.lkIqT.C9NJVR] exeMicros[6593] rows[2] name[] predicates[] bind[] 
+txn[1113], 15:17:49.968, select t0.id c0, t0.ip c1  from client_ip t0  order by t0.id desc  limit 21 
+txn[1113], 15:17:49.969, FindMany type[ClientIp] origin[BEPqfU.DJw4-9.BIHiwI] exeMicros[486] rows[1] name[] predicates[] bind[] 
+txn[1114], 15:17:49.970, select count(*)  from client_ip t0 
+txn[1114], 15:17:49.970, FindRowCount exeMicros[220] rows[1] type[com.goodbuy.models.ClientIp] predicates[] bind[] 
+txn[1115], 15:17:49.970, select count(*)  from client_ip t0 
+txn[1115], 15:17:49.971, FindRowCount exeMicros[144] rows[1] type[com.goodbuy.models.ClientIp] predicates[] bind[] 
+txn[1116], 15:17:50.613, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3  from channel t0  order by t0.id desc 
+txn[1116], 15:17:50.615, FindMany type[Channel] origin[Dammsu.DTLHXQ.ChLaMx] exeMicros[1615] rows[2] name[] predicates[] bind[] 
+txn[1117], 15:17:51.221, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3  from market t0  order by t0.id desc 
+txn[1117], 15:17:51.222, FindMany type[Market] origin[Z4-7p.lkIqT.C9NJVR] exeMicros[592] rows[2] name[] predicates[] bind[] 
+txn[1118], 15:17:51.795, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.view_count c4  from store t0  order by t0.id desc  limit 21 
+txn[1118], 15:17:51.796, FindMany type[Store] origin[BEPqfU.BfEmoy.BIHiwI] exeMicros[821] rows[3] name[] predicates[] bind[] 
+txn[1119], 15:17:51.797, select count(*)  from store t0 
+txn[1119], 15:17:51.797, FindRowCount exeMicros[263] rows[3] type[com.goodbuy.models.Store] predicates[] bind[] 
+txn[1120], 15:17:52.435, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 21 
+txn[1120], 15:17:52.436, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[794] rows[20] name[] predicates[] bind[] 
+txn[1122], 15:17:52.437, select count(*)  from product_9 t0 
+txn[1122], 15:17:52.437, FindRowCount exeMicros[249] rows[42] type[com.goodbuy.models.Product9] predicates[] bind[] 
+txn[1121], 15:17:52.437, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 21 offset 20 
+txn[1121], 15:17:52.439, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[1004] rows[20] name[] predicates[] bind[] 
+txn[1123], 15:17:52.439, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 21 offset 40 
+txn[1123], 15:17:52.439, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[302] rows[2] name[] predicates[] bind[] 
+txn[1124], 15:18:40.000, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 
+txn[1124], 15:18:40.001, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1784] rows[20] name[] predicates[] bind[] 
+txn[1126], 15:18:40.002, select count(*)  from product t0 
+txn[1126], 15:18:40.003, FindRowCount exeMicros[291] rows[81] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1125], 15:18:40.002, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1125], 15:18:40.007, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[5187] rows[20] name[] predicates[] bind[] 
+txn[1127], 15:18:40.009, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1127], 15:18:40.010, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[863] rows[20] name[] predicates[] bind[] 
+txn[1128], 15:18:40.010, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1128], 15:18:40.011, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[636] rows[20] name[] predicates[] bind[] 
+txn[1129], 15:18:40.011, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 80 
+txn[1129], 15:18:40.012, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[265] rows[1] name[] predicates[] bind[] 
+txn[1130], 15:18:40.061, select t0.id c0, t0.name c1  from categoty t0 
+txn[1130], 15:18:40.062, FindMany type[Category] origin[BvL8MX.CYlt6R.OTLuF] exeMicros[420] rows[2] name[] predicates[] bind[] 
+txn[1131], 15:18:40.071, select t0.id c0, t0.ip c1  from client_ip t0  where t0.ip = ?  
+txn[1131], 15:18:40.072, FindMany type[ClientIp] origin[29iX5.DJw4-9.JbRkA] exeMicros[581] rows[1] name[] predicates[t0.ip = ? ] bind[127.0.0.1] 
+txn[1132], 15:18:40.150, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 10 
+txn[1132], 15:18:40.187, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[36813] rows[10] name[] predicates[] bind[] 
+txn[1133], 15:18:40.153, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 
+txn[1133], 15:18:40.187, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[33912] rows[12] name[] predicates[] bind[] 
+txn[1134], 15:18:40.195, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3  from market t0  order by t0.id desc 
+txn[1134], 15:18:40.198, FindMany type[Market] origin[Z4-7p.lkIqT.C9NJVR] exeMicros[2850] rows[2] name[] predicates[] bind[] 
+txn[1135], 15:18:40.211, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.view_count c4  from store t0  order by t0.id desc  limit 13 
+txn[1135], 15:18:40.212, FindMany type[Store] origin[BEPqfU.BfEmoy.BIHiwI] exeMicros[1492] rows[3] name[] predicates[] bind[] 
+txn[1138], 15:18:40.239, select count(*)  from store t0 
+txn[1138], 15:18:40.239, FindRowCount exeMicros[182] rows[3] type[com.goodbuy.models.Store] predicates[] bind[] 
+txn[1136], 15:18:40.238, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3  from channel t0  order by t0.id desc 
+txn[1136], 15:18:40.238, FindMany type[Channel] origin[Dammsu.DTLHXQ.ChLaMx] exeMicros[419] rows[2] name[] predicates[] bind[] 
+txn[1140], 15:18:40.244, select count(*)  from product_9 t0 
+txn[1140], 15:18:40.255, FindRowCount exeMicros[10086] rows[42] type[com.goodbuy.models.Product9] predicates[] bind[] 
+txn[1141], 15:18:40.256, select count(*)  from product t0 
+txn[1141], 15:18:40.257, FindRowCount exeMicros[513] rows[81] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1137], 15:18:40.239, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 20 
+txn[1137], 15:18:40.264, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[24848] rows[10] name[] predicates[] bind[] 
+txn[1142], 15:18:40.264, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 30 
+txn[1142], 15:18:40.267, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2635] rows[10] name[] predicates[] bind[] 
+txn[1139], 15:18:40.248, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 12 
+txn[1139], 15:18:40.271, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[22851] rows[12] name[] predicates[] bind[] 
+txn[1144], 15:18:40.274, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 24 
+txn[1144], 15:18:40.275, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[968] rows[12] name[] predicates[] bind[] 
+txn[1145], 15:18:40.275, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 36 
+txn[1145], 15:18:40.276, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[825] rows[6] name[] predicates[] bind[] 
+txn[1143], 15:18:40.269, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 40 
+txn[1143], 15:18:40.389, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[119878] rows[10] name[] predicates[] bind[] 
+txn[1146], 15:18:40.391, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 50 
+txn[1146], 15:18:40.394, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[3523] rows[10] name[] predicates[] bind[] 
+txn[1147], 15:18:40.404, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 60 
+txn[1147], 15:18:40.406, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1679] rows[10] name[] predicates[] bind[] 
+txn[1148], 15:18:40.408, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 70 
+txn[1148], 15:18:40.409, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1299] rows[10] name[] predicates[] bind[] 
+txn[1149], 15:18:40.410, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 80 
+txn[1149], 15:18:40.411, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1043] rows[1] name[] predicates[] bind[] 
+txn[1150], 15:18:54.763, select t0.id c0, t0.ip c1  from client_ip t0  where t0.ip = ?  
+txn[1150], 15:18:54.765, FindMany type[ClientIp] origin[29iX5.DJw4-9.JbRkA] exeMicros[1365] rows[1] name[] predicates[t0.ip = ? ] bind[127.0.0.1] 
+txn[1151], 15:18:54.765, select t0.id c0, t0.name c1  from categoty t0 
+txn[1151], 15:18:54.765, FindMany type[Category] origin[BvL8MX.CYlt6R.OTLuF] exeMicros[461] rows[2] name[] predicates[] bind[] 
+txn[1152], 15:18:54.769, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 10 
+txn[1152], 15:18:54.770, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[952] rows[10] name[] predicates[] bind[] 
+txn[1153], 15:18:54.770, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3  from market t0  order by t0.id desc 
+txn[1153], 15:18:54.771, FindMany type[Market] origin[Z4-7p.lkIqT.C9NJVR] exeMicros[1163] rows[2] name[] predicates[] bind[] 
+txn[1155], 15:18:54.773, select count(*)  from product t0 
+txn[1155], 15:18:54.773, FindRowCount exeMicros[611] rows[81] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1156], 15:18:54.772, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 
+txn[1156], 15:18:54.774, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1016] rows[20] name[] predicates[] bind[] 
+txn[1157], 15:18:54.774, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 
+txn[1157], 15:18:54.777, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[3115] rows[12] name[] predicates[] bind[] 
+txn[1161], 15:18:54.778, select count(*)  from product_9 t0 
+txn[1161], 15:18:54.778, FindRowCount exeMicros[222] rows[42] type[com.goodbuy.models.Product9] predicates[] bind[] 
+txn[1154], 15:18:54.773, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 20 
+txn[1154], 15:18:54.777, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[3365] rows[10] name[] predicates[] bind[] 
+txn[1158], 15:18:54.776, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1158], 15:18:54.778, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2479] rows[20] name[] predicates[] bind[] 
+txn[1159], 15:18:54.786, select count(*)  from product t0 
+txn[1159], 15:18:54.787, FindRowCount exeMicros[1118] rows[81] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1162], 15:18:54.797, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 30 
+txn[1162], 15:18:54.798, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1210] rows[10] name[] predicates[] bind[] 
+txn[1160], 15:18:54.777, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 12 
+txn[1160], 15:18:54.806, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[28523] rows[12] name[] predicates[] bind[] 
+txn[1164], 15:18:54.801, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 40 
+txn[1164], 15:18:54.806, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[5280] rows[10] name[] predicates[] bind[] 
+txn[1163], 15:18:54.802, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1163], 15:18:54.806, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[4827] rows[20] name[] predicates[] bind[] 
+txn[1166], 15:18:54.807, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 24 
+txn[1166], 15:18:54.808, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[802] rows[12] name[] predicates[] bind[] 
+txn[1165], 15:18:54.807, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 50 
+txn[1165], 15:18:54.809, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1574] rows[10] name[] predicates[] bind[] 
+txn[1168], 15:18:54.809, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 36 
+txn[1168], 15:18:54.810, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[828] rows[6] name[] predicates[] bind[] 
+txn[1167], 15:18:54.807, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1167], 15:18:54.811, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[3314] rows[20] name[] predicates[] bind[] 
+txn[1169], 15:18:54.810, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 60 
+txn[1169], 15:18:54.811, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1314] rows[10] name[] predicates[] bind[] 
+txn[1170], 15:18:54.811, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 80 
+txn[1170], 15:18:54.812, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[474] rows[1] name[] predicates[] bind[] 
+txn[1171], 15:18:54.811, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 70 
+txn[1171], 15:18:54.812, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[630] rows[10] name[] predicates[] bind[] 
+txn[1172], 15:18:54.814, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 80 
+txn[1172], 15:18:54.815, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[660] rows[1] name[] predicates[] bind[] 
+txn[1173], 15:18:54.842, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.view_count c4  from store t0  order by t0.id desc  limit 13 
+txn[1173], 15:18:54.842, FindMany type[Store] origin[BEPqfU.BfEmoy.BIHiwI] exeMicros[422] rows[3] name[] predicates[] bind[] 
+txn[1174], 15:18:54.841, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3  from channel t0  order by t0.id desc 
+txn[1174], 15:18:54.842, FindMany type[Channel] origin[Dammsu.DTLHXQ.ChLaMx] exeMicros[562] rows[2] name[] predicates[] bind[] 
+txn[1175], 15:18:54.843, select count(*)  from store t0 
+txn[1175], 15:18:54.845, FindRowCount exeMicros[2584] rows[3] type[com.goodbuy.models.Store] predicates[] bind[] 
+txn[1177], 15:20:23.960, select t0.id c0, t0.name c1  from categoty t0 
+txn[1177], 15:20:23.961, FindMany type[Category] origin[BvL8MX.CYlt6R.OTLuF] exeMicros[523] rows[2] name[] predicates[] bind[] 
+txn[1176], 15:20:23.960, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 
+txn[1176], 15:20:24.001, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[40646] rows[12] name[] predicates[] bind[] 
+txn[1179], 15:20:24.002, select count(*)  from product_9 t0 
+txn[1179], 15:20:24.002, FindRowCount exeMicros[219] rows[42] type[com.goodbuy.models.Product9] predicates[] bind[] 
+txn[1178], 15:20:24.001, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 12 
+txn[1178], 15:20:24.002, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[600] rows[12] name[] predicates[] bind[] 
+txn[1180], 15:20:24.002, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 24 
+txn[1180], 15:20:24.003, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[688] rows[12] name[] predicates[] bind[] 
+txn[1181], 15:20:24.004, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 36 
+txn[1181], 15:20:24.004, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[561] rows[6] name[] predicates[] bind[] 
+txn[1182], 15:20:25.482, select t0.id c0, t0.name c1  from categoty t0 
+txn[1182], 15:20:25.488, FindMany type[Category] origin[BvL8MX.CYlt6R.OTLuF] exeMicros[5894] rows[2] name[] predicates[] bind[] 
+txn[1183], 15:20:25.490, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3  from market t0  order by t0.id desc 
+txn[1183], 15:20:25.490, FindMany type[Market] origin[Z4-7p.lkIqT.C9NJVR] exeMicros[314] rows[2] name[] predicates[] bind[] 
+txn[1184], 15:20:26.366, select t0.id c0, t0.name c1  from categoty t0 
+txn[1184], 15:20:26.367, FindMany type[Category] origin[BvL8MX.CYlt6R.OTLuF] exeMicros[442] rows[2] name[] predicates[] bind[] 
+txn[1185], 15:20:26.367, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.view_count c4  from store t0  order by t0.id desc  limit 13 
+txn[1185], 15:20:26.369, FindMany type[Store] origin[BEPqfU.BfEmoy.BIHiwI] exeMicros[1085] rows[3] name[] predicates[] bind[] 
+txn[1186], 15:20:26.370, select count(*)  from store t0 
+txn[1186], 15:20:26.370, FindRowCount exeMicros[892] rows[3] type[com.goodbuy.models.Store] predicates[] bind[] 
+txn[1187], 15:20:27.167, select t0.id c0, t0.name c1  from categoty t0 
+txn[1187], 15:20:27.168, FindMany type[Category] origin[BvL8MX.CYlt6R.D6irvz] exeMicros[1052] rows[2] name[] predicates[] bind[] 
+txn[1188], 15:20:27.169, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3  from channel t0  order by t0.id desc 
+txn[1188], 15:20:27.170, FindMany type[Channel] origin[Dammsu.DTLHXQ.ChLaMx] exeMicros[509] rows[2] name[] predicates[] bind[] 
+txn[1189], 15:20:29.362, select t0.id c0, t0.name c1  from categoty t0 
+txn[1189], 15:20:29.362, FindMany type[Category] origin[BvL8MX.CYlt6R.D6irvz] exeMicros[301] rows[2] name[] predicates[] bind[] 
+txn[1190], 15:20:29.362, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  where t0.category_id = ?   order by t0.id desc  limit 21 
+txn[1190], 15:20:29.363, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1001] rows[20] name[] predicates[t0.category_id = ? ] bind[1] 
+txn[1192], 15:20:29.364, select count(*)  from product t0  where t0.category_id = ?  
+txn[1192], 15:20:29.364, FindRowCount exeMicros[397] rows[40] type[com.goodbuy.models.Product] predicates[] bind[1] 
+txn[1191], 15:20:29.363, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  where t0.category_id = ?   order by t0.id desc  limit 21 offset 20 
+txn[1191], 15:20:29.365, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1398] rows[20] name[] predicates[t0.category_id = ? ] bind[1] 
+txn[1193], 15:20:31.435, select t0.id c0, t0.name c1  from categoty t0 
+txn[1193], 15:20:31.436, FindMany type[Category] origin[BvL8MX.CYlt6R.D6irvz] exeMicros[1011] rows[2] name[] predicates[] bind[] 
+txn[1194], 15:20:31.438, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  where t0.category_id = ?   order by t0.id desc  limit 21 
+txn[1194], 15:20:31.439, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[993] rows[20] name[] predicates[t0.category_id = ? ] bind[2] 
+txn[1195], 15:20:31.439, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  where t0.category_id = ?   order by t0.id desc  limit 21 offset 20 
+txn[1195], 15:20:31.441, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1774] rows[20] name[] predicates[t0.category_id = ? ] bind[2] 
+txn[1196], 15:20:31.441, select count(*)  from product t0  where t0.category_id = ?  
+txn[1196], 15:20:31.441, FindRowCount exeMicros[311] rows[41] type[com.goodbuy.models.Product] predicates[] bind[2] 
+txn[1197], 15:20:31.442, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  where t0.category_id = ?   order by t0.id desc  limit 21 offset 40 
+txn[1197], 15:20:31.443, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[536] rows[1] name[] predicates[t0.category_id = ? ] bind[2] 
+txn[1198], 15:20:36.079, select t0.id c0, t0.name c1  from categoty t0 
+txn[1198], 15:20:36.080, FindMany type[Category] origin[BvL8MX.CYlt6R.D6irvz] exeMicros[726] rows[2] name[] predicates[] bind[] 
+txn[1199], 15:20:36.088, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 
+txn[1199], 15:20:36.088, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[654] rows[12] name[] predicates[] bind[] 
+txn[1201], 15:20:36.089, select count(*)  from product_9 t0 
+txn[1201], 15:20:36.089, FindRowCount exeMicros[174] rows[42] type[com.goodbuy.models.Product9] predicates[] bind[] 
+txn[1200], 15:20:36.089, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 12 
+txn[1200], 15:20:36.089, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[580] rows[12] name[] predicates[] bind[] 
+txn[1202], 15:20:36.090, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 24 
+txn[1202], 15:20:36.090, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[438] rows[12] name[] predicates[] bind[] 
+txn[1203], 15:20:36.091, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 36 
+txn[1203], 15:20:36.092, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[1440] rows[6] name[] predicates[] bind[] 
+txn[1204], 15:20:37.480, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 12 
+txn[1204], 15:20:37.481, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[902] rows[12] name[] predicates[] bind[] 
+txn[1205], 15:20:37.482, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 24 
+txn[1205], 15:20:37.484, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[2758] rows[12] name[] predicates[] bind[] 
+txn[1206], 15:20:37.484, select count(*)  from product_9 t0 
+txn[1206], 15:20:37.485, FindRowCount exeMicros[534] rows[42] type[com.goodbuy.models.Product9] predicates[] bind[] 
+txn[1207], 15:20:37.485, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 36 
+txn[1207], 15:20:37.486, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[561] rows[6] name[] predicates[] bind[] 
+txn[1208], 15:20:38.660, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 24 
+txn[1208], 15:20:38.661, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[1023] rows[12] name[] predicates[] bind[] 
+txn[1209], 15:20:38.662, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 36 
+txn[1209], 15:20:38.663, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[486] rows[6] name[] predicates[] bind[] 
+txn[1210], 15:20:38.663, select count(*)  from product_9 t0 
+txn[1210], 15:20:38.663, FindRowCount exeMicros[254] rows[42] type[com.goodbuy.models.Product9] predicates[] bind[] 
+txn[1211], 15:20:48.085, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 36 
+txn[1211], 15:20:48.086, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[695] rows[6] name[] predicates[] bind[] 
+txn[1212], 15:20:48.087, select count(*)  from product_9 t0 
+txn[1212], 15:20:48.087, FindRowCount exeMicros[380] rows[42] type[com.goodbuy.models.Product9] predicates[] bind[] 
+txn[1213], 15:21:37.958, select t0.id c0, t0.name c1  from categoty t0 
+txn[1213], 15:21:37.958, FindMany type[Category] origin[BvL8MX.CYlt6R.D6irvz] exeMicros[678] rows[2] name[] predicates[] bind[] 
+txn[1214], 15:21:37.966, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  where t0.name like ?   limit 21 offset 20 
+txn[1214], 15:21:37.978, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[12398] rows[0] name[] predicates[t0.name like ? ] bind[%å®è´%] 
+txn[1215], 15:21:37.979, select count(*)  from product t0  where t0.name like ?  
+txn[1215], 15:21:37.979, FindRowCount exeMicros[444] rows[0] type[com.goodbuy.models.Product] predicates[t0.name like ? ] bind[%å®è´%] 
+txn[1216], 15:21:44.598, select t0.id c0, t0.name c1  from categoty t0 
+txn[1216], 15:21:44.598, FindMany type[Category] origin[BvL8MX.CYlt6R.D6irvz] exeMicros[300] rows[2] name[] predicates[] bind[] 
+txn[1217], 15:21:44.599, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  where t0.category_id = ?   order by t0.id desc  limit 21 
+txn[1217], 15:21:44.600, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[626] rows[20] name[] predicates[t0.category_id = ? ] bind[1] 
+txn[1219], 15:21:44.603, select count(*)  from product t0  where t0.category_id = ?  
+txn[1219], 15:21:44.604, FindRowCount exeMicros[410] rows[40] type[com.goodbuy.models.Product] predicates[] bind[1] 
+txn[1218], 15:21:44.602, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  where t0.category_id = ?   order by t0.id desc  limit 21 offset 20 
+txn[1218], 15:21:44.603, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1368] rows[20] name[] predicates[t0.category_id = ? ] bind[1] 
+txn[1220], 15:22:08.116, select t0.id c0, t0.name c1  from categoty t0 
+txn[1220], 15:22:08.117, FindMany type[Category] origin[BvL8MX.CYlt6R.D6irvz] exeMicros[637] rows[2] name[] predicates[] bind[] 
+txn[1221], 15:22:08.124, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3  from channel t0  order by t0.id desc 
+txn[1221], 15:22:08.125, FindMany type[Channel] origin[Dammsu.DTLHXQ.ChLaMx] exeMicros[630] rows[2] name[] predicates[] bind[] 
+txn[1223], 15:22:09.200, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.view_count c4  from store t0  order by t0.id desc  limit 13 
+txn[1223], 15:22:09.201, FindMany type[Store] origin[BEPqfU.BfEmoy.BIHiwI] exeMicros[650] rows[3] name[] predicates[] bind[] 
+txn[1222], 15:22:09.200, select t0.id c0, t0.name c1  from categoty t0 
+txn[1222], 15:22:09.201, FindMany type[Category] origin[BvL8MX.CYlt6R.D6irvz] exeMicros[1518] rows[2] name[] predicates[] bind[] 
+txn[1224], 15:22:09.202, select count(*)  from store t0 
+txn[1224], 15:22:09.203, FindRowCount exeMicros[1050] rows[3] type[com.goodbuy.models.Store] predicates[] bind[] 
+txn[1226], 15:22:10.046, select t0.id c0, t0.name c1  from categoty t0 
+txn[1226], 15:22:10.047, FindMany type[Category] origin[BvL8MX.CYlt6R.D6irvz] exeMicros[344] rows[2] name[] predicates[] bind[] 
+txn[1225], 15:22:10.046, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3  from market t0  order by t0.id desc 
+txn[1225], 15:22:10.048, FindMany type[Market] origin[Z4-7p.lkIqT.C9NJVR] exeMicros[1909] rows[2] name[] predicates[] bind[] 
+txn[1227], 15:22:10.638, select t0.id c0, t0.name c1  from categoty t0 
+txn[1227], 15:22:10.638, FindMany type[Category] origin[BvL8MX.CYlt6R.D6irvz] exeMicros[391] rows[2] name[] predicates[] bind[] 
+txn[1228], 15:22:10.639, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 
+txn[1228], 15:22:10.639, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[567] rows[12] name[] predicates[] bind[] 
+txn[1229], 15:22:10.640, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 12 
+txn[1229], 15:22:10.641, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[1032] rows[12] name[] predicates[] bind[] 
+txn[1231], 15:22:10.643, select count(*)  from product_9 t0 
+txn[1231], 15:22:10.643, FindRowCount exeMicros[613] rows[42] type[com.goodbuy.models.Product9] predicates[] bind[] 
+txn[1230], 15:22:10.643, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 24 
+txn[1230], 15:22:10.644, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[991] rows[12] name[] predicates[] bind[] 
+txn[1232], 15:22:10.644, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 36 
+txn[1232], 15:22:10.645, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[503] rows[6] name[] predicates[] bind[] 
+txn[1233], 15:22:11.187, select t0.id c0, t0.name c1  from categoty t0 
+txn[1233], 15:22:11.198, FindMany type[Category] origin[BvL8MX.CYlt6R.D6irvz] exeMicros[10717] rows[2] name[] predicates[] bind[] 
+txn[1234], 15:22:11.198, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 
+txn[1234], 15:22:11.204, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[5462] rows[20] name[] predicates[] bind[] 
+txn[1235], 15:22:11.204, select t0.id c0, t0.ip c1  from client_ip t0  where t0.ip = ?  
+txn[1235], 15:22:11.206, FindMany type[ClientIp] origin[29iX5.DJw4-9.JbRkA] exeMicros[2176] rows[1] name[] predicates[t0.ip = ? ] bind[127.0.0.1] 
+txn[1236], 15:22:11.215, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 10 
+txn[1236], 15:22:11.217, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1316] rows[10] name[] predicates[] bind[] 
+txn[1239], 15:22:11.218, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 
+txn[1239], 15:22:11.219, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[919] rows[12] name[] predicates[] bind[] 
+txn[1240], 15:22:11.219, select count(*)  from product t0 
+txn[1240], 15:22:11.220, FindRowCount exeMicros[387] rows[81] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1241], 15:22:11.220, select count(*)  from product t0 
+txn[1241], 15:22:11.220, FindRowCount exeMicros[188] rows[81] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1237], 15:22:11.218, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1237], 15:22:11.222, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[3130] rows[20] name[] predicates[] bind[] 
+txn[1238], 15:22:11.218, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 20 
+txn[1238], 15:22:11.221, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[3321] rows[10] name[] predicates[] bind[] 
+txn[1243], 15:22:11.222, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3  from channel t0  order by t0.id desc 
+txn[1243], 15:22:11.223, FindMany type[Channel] origin[Dammsu.DTLHXQ.ChLaMx] exeMicros[1792] rows[2] name[] predicates[] bind[] 
+txn[1242], 15:22:11.222, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.view_count c4  from store t0  order by t0.id desc  limit 13 
+txn[1242], 15:22:11.223, FindMany type[Store] origin[BEPqfU.BfEmoy.BIHiwI] exeMicros[1189] rows[3] name[] predicates[] bind[] 
+txn[1245], 15:22:11.224, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1245], 15:22:11.233, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[8080] rows[20] name[] predicates[] bind[] 
+txn[1246], 15:22:11.224, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 30 
+txn[1246], 15:22:11.233, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[8787] rows[10] name[] predicates[] bind[] 
+txn[1244], 15:22:11.234, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 12 
+txn[1244], 15:22:11.235, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[1156] rows[12] name[] predicates[] bind[] 
+txn[1247], 15:22:11.241, select count(*)  from product_9 t0 
+txn[1247], 15:22:11.244, FindRowCount exeMicros[3263] rows[42] type[com.goodbuy.models.Product9] predicates[] bind[] 
+txn[1248], 15:22:11.245, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3  from market t0  order by t0.id desc 
+txn[1248], 15:22:11.252, FindMany type[Market] origin[Z4-7p.lkIqT.C9NJVR] exeMicros[501] rows[2] name[] predicates[] bind[] 
+txn[1250], 15:22:11.246, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 40 
+txn[1250], 15:22:11.253, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[6506] rows[10] name[] predicates[] bind[] 
+txn[1251], 15:22:11.248, select count(*)  from store t0 
+txn[1251], 15:22:11.258, FindRowCount exeMicros[9982] rows[3] type[com.goodbuy.models.Store] predicates[] bind[] 
+txn[1249], 15:22:11.253, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1249], 15:22:11.257, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[3899] rows[20] name[] predicates[] bind[] 
+txn[1252], 15:22:11.254, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 24 
+txn[1252], 15:22:11.259, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[4688] rows[12] name[] predicates[] bind[] 
+txn[1253], 15:22:11.259, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 50 
+txn[1253], 15:22:11.260, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1467] rows[10] name[] predicates[] bind[] 
+txn[1256], 15:22:11.261, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 60 
+txn[1256], 15:22:11.262, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[929] rows[10] name[] predicates[] bind[] 
+txn[1255], 15:22:11.261, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 36 
+txn[1255], 15:22:11.262, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[1164] rows[6] name[] predicates[] bind[] 
+txn[1254], 15:22:11.261, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 80 
+txn[1254], 15:22:11.262, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1250] rows[1] name[] predicates[] bind[] 
+txn[1257], 15:22:11.263, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 70 
+txn[1257], 15:22:11.263, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[642] rows[10] name[] predicates[] bind[] 
+txn[1258], 15:22:11.264, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 80 
+txn[1258], 15:22:11.265, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[408] rows[1] name[] predicates[] bind[] 
+txn[1259], 15:22:33.714, select t0.id c0, t0.name c1  from categoty t0 
+txn[1259], 15:22:33.714, FindMany type[Category] origin[BvL8MX.CYlt6R.D6irvz] exeMicros[411] rows[2] name[] predicates[] bind[] 
+txn[1260], 15:22:33.716, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 
+txn[1260], 15:22:33.716, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[584] rows[12] name[] predicates[] bind[] 
+txn[1262], 15:22:33.717, select count(*)  from product_9 t0 
+txn[1262], 15:22:33.718, FindRowCount exeMicros[262] rows[42] type[com.goodbuy.models.Product9] predicates[] bind[] 
+txn[1261], 15:22:33.717, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 12 
+txn[1261], 15:22:33.718, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[565] rows[12] name[] predicates[] bind[] 
+txn[1263], 15:22:33.718, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 24 
+txn[1263], 15:22:33.718, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[392] rows[12] name[] predicates[] bind[] 
+txn[1264], 15:22:33.719, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 36 
+txn[1264], 15:22:33.719, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[317] rows[6] name[] predicates[] bind[] 
+txn[1265], 15:22:37.300, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0 where t0.id = ?   
+txn[1265], 15:22:37.302, FindBean type[Product9] origin[Bv6n3w.D8kE_k.z2QpY] exeMicros[2743] rows[1] bind[40] 
+txn[1266], 15:22:37.309, update product_9 set view_count=? where id=? and name=? and url=? and image_url=? and price=? and view_count=? 
+txn[1266], 15:22:37.310, Binding Update [product_9]  set[view_count=1, ] where[id=40, name=2013春秋季冬装加绒大码连帽卫衣套装 女胖mm加厚三件套, url=http://s.click.taobao.com/t?e=m%3D2%26s%3DcTa9D..., image_url=http://img02.taobaocdn.com/bao/uploaded/i2/1900..., price=198.75, view_count=0, ] 
+txn[1266], 15:22:37.400, Updated [Product9] [40] 
+txn[1267], 15:22:44.892, select t0.id c0, t0.name c1  from categoty t0 
+txn[1267], 15:22:44.892, FindMany type[Category] origin[BvL8MX.CYlt6R.D6irvz] exeMicros[579] rows[2] name[] predicates[] bind[] 
+txn[1268], 15:22:44.895, select t0.id c0, t0.ip c1  from client_ip t0  where t0.ip = ?  
+txn[1268], 15:22:44.896, FindMany type[ClientIp] origin[29iX5.DJw4-9.JbRkA] exeMicros[972] rows[1] name[] predicates[t0.ip = ? ] bind[127.0.0.1] 
+txn[1269], 15:22:44.896, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3  from market t0  order by t0.id desc 
+txn[1269], 15:22:44.896, FindMany type[Market] origin[Z4-7p.lkIqT.C9NJVR] exeMicros[500] rows[2] name[] predicates[] bind[] 
+txn[1271], 15:22:44.901, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 
+txn[1271], 15:22:44.902, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[669] rows[20] name[] predicates[] bind[] 
+txn[1270], 15:22:44.900, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 10 
+txn[1270], 15:22:44.901, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1000] rows[10] name[] predicates[] bind[] 
+txn[1276], 15:22:44.922, select count(*)  from product t0 
+txn[1276], 15:22:44.923, FindRowCount exeMicros[1574] rows[81] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1274], 15:22:44.922, select count(*)  from product t0 
+txn[1274], 15:22:44.924, FindRowCount exeMicros[1387] rows[81] type[com.goodbuy.models.Product] predicates[] bind[] 
+txn[1273], 15:22:44.924, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 
+txn[1273], 15:22:44.925, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[729] rows[12] name[] predicates[] bind[] 
+txn[1278], 15:22:44.927, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3  from channel t0  order by t0.id desc 
+txn[1278], 15:22:44.928, FindMany type[Channel] origin[Dammsu.DTLHXQ.ChLaMx] exeMicros[567] rows[2] name[] predicates[] bind[] 
+txn[1277], 15:22:44.927, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.view_count c4  from store t0  order by t0.id desc  limit 13 
+txn[1277], 15:22:44.928, FindMany type[Store] origin[BEPqfU.BfEmoy.BIHiwI] exeMicros[586] rows[3] name[] predicates[] bind[] 
+txn[1272], 15:22:44.921, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 20 
+txn[1272], 15:22:44.928, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[6746] rows[20] name[] predicates[] bind[] 
+txn[1275], 15:22:44.922, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 20 
+txn[1275], 15:22:44.929, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[7499] rows[10] name[] predicates[] bind[] 
+txn[1280], 15:22:44.929, select count(*)  from product_9 t0 
+txn[1280], 15:22:44.930, FindRowCount exeMicros[1131] rows[42] type[com.goodbuy.models.Product9] predicates[] bind[] 
+txn[1281], 15:22:44.929, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 40 
+txn[1281], 15:22:44.930, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[969] rows[20] name[] predicates[] bind[] 
+txn[1282], 15:22:44.930, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 30 
+txn[1282], 15:22:44.930, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[825] rows[10] name[] predicates[] bind[] 
+txn[1279], 15:22:44.928, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 12 
+txn[1279], 15:22:44.939, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[10266] rows[12] name[] predicates[] bind[] 
+txn[1285], 15:22:44.939, select count(*)  from store t0 
+txn[1285], 15:22:44.940, FindRowCount exeMicros[779] rows[3] type[com.goodbuy.models.Store] predicates[] bind[] 
+txn[1283], 15:22:44.931, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 60 
+txn[1283], 15:22:44.939, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[7967] rows[20] name[] predicates[] bind[] 
+txn[1286], 15:22:44.941, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 24 
+txn[1286], 15:22:44.942, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[1076] rows[12] name[] predicates[] bind[] 
+txn[1284], 15:22:44.939, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 40 
+txn[1284], 15:22:44.944, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[5246] rows[10] name[] predicates[] bind[] 
+txn[1287], 15:22:44.942, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.id desc  limit 21 offset 80 
+txn[1287], 15:22:44.944, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[2191] rows[1] name[] predicates[] bind[] 
+txn[1288], 15:22:44.946, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5  from product_9 t0  order by t0.id desc  limit 13 offset 36 
+txn[1288], 15:22:44.947, FindMany type[Product9] origin[BEPqfU.D8kE_l.BIHiwI] exeMicros[1111] rows[6] name[] predicates[] bind[] 
+txn[1289], 15:22:44.949, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 50 
+txn[1289], 15:22:44.951, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1756] rows[10] name[] predicates[] bind[] 
+txn[1290], 15:22:44.953, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 60 
+txn[1290], 15:22:44.955, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1924] rows[10] name[] predicates[] bind[] 
+txn[1291], 15:22:44.957, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 70 
+txn[1291], 15:22:44.959, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[1614] rows[10] name[] predicates[] bind[] 
+txn[1292], 15:22:44.961, select t0.id c0, t0.name c1, t0.url c2, t0.image_url c3, t0.price c4, t0.view_count c5, t0.category_id c6, t0.category_name c7  from product t0  order by t0.view_count desc  limit 11 offset 80 
+txn[1292], 15:22:44.962, FindMany type[Product] origin[BEPqfU.BB9CNk.BIHiwI] exeMicros[442] rows[1] name[] predicates[] bind[] 
